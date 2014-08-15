@@ -1,0 +1,147 @@
+<Window>
+  <VerticalLayout name="Special" bkcolor="#FFE9EEEE" vscrollbar="true">
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textpadding_left:" width="250" align="left" showhtml="true"/>
+        <Edit name="textpadding_left" digitalnumber="true" bkcolor="#FFE9EEEE" width="210"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textpadding_top:" width="250" align="left" showhtml="true"/>
+        <Edit name="textpadding_top" digitalnumber="true" bkcolor="#FFE9EEEE" width="210"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textpadding_right:" width="250" align="left" showhtml="true"/>
+        <Edit name="textpadding_right" digitalnumber="true" bkcolor="#FFE9EEEE" width="210"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textpadding_bottom:" width="250" align="left" showhtml="true"/>
+        <Edit name="textpadding_bottom" digitalnumber="true" bkcolor="#FFE9EEEE" width="210"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="ItemTextColor:" width="250" align="left" showhtml="true"/>
+        <Edit name="ItemTextColor" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="ItemBkColor:" width="250" align="left" showhtml="true"/>
+        <Edit name="ItemBkColor" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="ItemImage:" width="250" align="left" showhtml="true"/>
+        <Edit name="ItemImage" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="SelectedItemTextColor:" width="250" align="left" showhtml="true"/>
+        <Edit name="SelectedItemTextColor" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="SelectedItemBkColor:" width="250" align="left" showhtml="true"/>
+        <Edit name="SelectedItemBkColor" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="SelectedItemImage:" width="250" align="left" showhtml="true"/>
+        <Edit name="SelectedItemImage" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="HotItemTextColor:" width="250" align="left" showhtml="true"/>
+        <Edit name="HotItemTextColor" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="HotItemBkColor:" width="250" align="left" showhtml="true"/>
+        <Edit name="HotItemBkColor" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="HotItemImage:" width="250" align="left" showhtml="true"/>
+        <Edit name="HotItemImage" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="DisabledItemTextColor:" width="250" align="left" showhtml="true"/>
+        <Edit name="DisabledItemTextColor" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="DisabledItemBkColor:" width="250" align="left" showhtml="true"/>
+        <Edit name="DisabledItemBkColor" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="DisabledItemImage:" width="250" align="left" showhtml="true"/>
+        <Edit name="DisabledItemImage" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="ItemLineColor:" width="250" align="left" showhtml="true"/>
+        <Edit name="ItemLineColor" bkcolor="#FFE9EEEE" width="210"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="ItemShowhtml:" width="250" align="left" showhtml="true"/>
+        <Combo bkcolor="#FFE9EEEE" bkcolor="#FFE9EEEE" name="ItemShowhtml" width="210" dropboxsize="0, 150" droptype="droplist" dropbtnimage="file='list_down.png''">
+          <ListLabelElement text="true" selected="true" />
+          <ListLabelElement text="false"/>
+        </Combo>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <HorizontalLayout height="100" inset="2,2,2,2" bkcolor="#FFFFFFFF" bordercolor="#FF000000" bordersize="0">
+    <VerticalLayout name="listitem">
+      <Container name="thumbnail" float="true" pos="0,0,60,80" width="60" height="80" bkimage="file='网上冲浪.bmp'" />
+      <Text font="1" float="true" text="lefttop" bkcolor="#FFFFFFFF" align="left" pos="62,2,200,30" />
+      <Text float="true" text="leftright" bkcolor="#FFFFFFFF" align="right" pos="200,2,580,20" textpadding="2,2,20,2"/>
+      <Text float="true" showhtml ="true" text="<f 1>Cen<c #00FF>t</c>er </f>" bkcolor="#FFFFFFFF" align="left" pos="62,30,580,58"/>
+      <Text float="true" text="leftbottom" bkcolor="#FFFFFFFF" align="left" pos="62,58,200,78"/>
+      <Text float="true" text="rightbottom" bkcolor="#FFFFFFFF" align="right" pos="200,58,580,78" textpadding="2,2,20,2"/>
+      <VerticalLayout float="true" pos="0,90,600,95" bkcolor="#FFFF0000"/>
+    </VerticalLayout>
+  </HorizontalLayout>
+</Window>

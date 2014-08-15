@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <HorizontalLayout height="55" inset="2,2,2,2" bkcolor="#FF757676" bkcolor2="#FFB9D1EF" bordercolor="#FF000000" bordersize="0">
+    <VerticalLayout>
+      <Container float="true" pos="280,2,320,53" bkimage="file='navpanel_middle.png'" />
+      <Container float="true" pos="0,11,16,44" bkimage="file='navpanel_left.png'" />
+      <Container float="true" pos="16,11,280,44" bkimage="file='navpanel_side.png'" />
+      <Container float="true" pos="320,11,580,44" bkimage="file='navpanel_side.png'" />
+      <Container float="true" pos="580,11,596,44" bkimage="file='navpanel_right.png'" />
+      <Button name="zoom" pos="113, 15, 150, 40" float="true" maxwidth="37" maxheight="25" normalimage="file='navbuttons_zoom.png' source='37,0,74,25'" hotimage="file='navbuttons_zoom.png' source='74,0,111,25'" pushedimage="file='navbuttons_zoom.png' source='111,0,148,25'"/>
+      <Button name="sort" pos="175, 15, 201, 40" float="true" maxwidth="26" maxheight="25" normalimage="file='navbuttons_reset.png' source='26,0,52,25'" hotimage="file='navbuttons_reset.png' source='52,0,78,25'" pushedimage="file='navbuttons_reset.png' source='78,0,104,25'"/>
+      <Button name="back" pos="225, 15, 276, 40" float="true" maxwidth="51" maxheight="25" normalimage="file='navbuttons_back.png' source='51,0,102,25'" hotimage="file='navbuttons_back.png' source='102,0,153,25'" pushedimage="file='navbuttons_back.png' source='153,0,204,25'"/>
+      <Button name="center" pos="276, 3, 324, 51" float="true" maxwidth="42" maxheight="48" normalimage="file='navbuttons_run.png' source='44,0,88,48'" hotimage="file='navbuttons_run.png' source='88,0,132,48'" pushedimage="file='navbuttons_run.png' source='132,0,176,48'"/>
+      <Button name="forward" pos="324, 15, 375, 40" float="true" maxwidth="51" maxheight="25" normalimage="file='navbuttons_forward.png' source='51,0,102,25'" hotimage="file='navbuttons_forward.png' source='102,0,153,25'" pushedimage="file='navbuttons_forward.png' source='153,0,204,25'"/>
+      <Button name="rotateleft" pos="400, 15, 425, 40" float="true" maxwidth="25" maxheight="25" normalimage="file='navbuttons_rotleft.png' source='25,0,50,25'" hotimage="file='navbuttons_rotleft.png' source='50,0,75,25'" pushedimage="file='navbuttons_rotleft.png' source='75,0,100,25'"/>
+      <Button name="rotateright" pos="425, 15, 450, 40" float="true" maxwidth="25" maxheight="25" normalimage="file='navbuttons_rotright.png' source='25,0,50,25'" hotimage="file='navbuttons_rotright.png' source='50,0,75,25'" pushedimage="file='navbuttons_rotright.png' source='75,0,100,25'"/>
+      <Button name="delete" pos="475, 15, 500, 40" float="true" maxwidth="25" maxheight="25" normalimage="file='navbuttons_delete.png' source='25,0,50,25'" hotimage="file='navbuttons_delete.png' source='50,0,75,25'" pushedimage="file='navbuttons_delete.png' source='75,0,100,25'"/>
+    </VerticalLayout>
+  </HorizontalLayout>
+</Window>

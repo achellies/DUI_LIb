@@ -1,0 +1,10 @@
+VSWIZARD 7.0
+Wizard=VsWizard.VsWizardEngine.9.0
+
+Param="WIZARD_NAME = DuilibWizard"
+Param="RELATIVE_PATH = VCWizards"
+Param="FALLBACK_LCID = 2052"
+Param="WIZARD_UI = FALSE"
+Param="SOURCE_FILTER = cpp;xml"
+Param="INCLUDE_FILTER = h"
+Param="PICTRUE_FILTER = bmp"

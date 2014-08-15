@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window size="120,135" caption="0,0,0,23" mininfo="120,135">
+  <Font name="微软雅黑" size="10" />
+  <Font name="微软雅黑" size="12" />
+  <Font name="微软雅黑" size="14" />
+  <Font name="宋体" size="13" bold="true" />
+  <Font name="宋体" size="12" bold="true" />
+  <Font name="宋体" size="12" />
+  <Font name="宋体" size="14" bold="true" />
+  <Container>
+    <VerticalLayout name="main" bordercolor="#0611DCFF" bordersize="1" inset="1,1,1,1">
+      
+      <HorizontalLayout inset="1,3,4,2" bkcolor="#FFFFFFFF">
+        
+        <HorizontalLayout name="left"  width="30" inset="1,0,2,0">
+          <Control bkcolor="#FFFF0FFF" />
+        </HorizontalLayout>
+        
+        <HorizontalLayout name="right" bkcolor="#FFFFFFFF">
+          <VerticalLayout name="menu" bkcolor="#FFFFFFFF" >
+            <VerticalLayout name="menuDetail" bkcolor="#FFFFFFFF" >
+              <Button text="系统设置" name="SystemSetDlg" hotimage="file='tree_hot.bmp' corner='2,1,2,1'" />
+              <Button text="新手帮助" name="help" hotimage="file='tree_hot.bmp' corner='2,1,2,1'" />
+              <Button text="客服中心" name="feedback" hotimage="file='tree_hot.bmp' corner='2,1,2,1'" />
+              <Button text="官方网站" name="officeSite" hotimage="file='tree_hot.bmp' corner='2,1,2,1'" />
+              <Button text="升级游戏大厅" name="updateGame" hotimage="file='tree_hot.bmp' corner='2,1,2,1'" />
+              <Button text="关于游戏大厅" name="aboutGame" hotimage="file='tree_hot.bmp' corner='2,1,2,1'" />
+            </VerticalLayout>
+          </VerticalLayout>
+        </HorizontalLayout>
+        
+      </HorizontalLayout>
+      
+    </VerticalLayout>
+  </Container>
+</Window>

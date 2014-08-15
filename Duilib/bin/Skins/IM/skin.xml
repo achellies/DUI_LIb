@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window caption="0,0,0,90" size="269,590" roundcorner="5,5,5,5" >
+ <Font name="微软雅黑" size="12" bold="true" />
+ <Font name="宋体" size="13"/>
+<VerticalLayout>
+	<HorizontalLayout height="124" bkcolor="#29313C00">
+		<VerticalLayout width="5" bkimage="file='header_left.png'">
+		</VerticalLayout>
+		<VerticalLayout bkimage="file='header_mid.png'" >
+			<HorizontalLayout height="28" inset="0,2,0,0">
+				<VerticalLayout width="80">
+					<Text text="IM--tojen" textcolor="#FFFFFF" font="0"></Text>
+				</VerticalLayout>
+				<VerticalLayout>
+				</VerticalLayout>
+				<VerticalLayout width="60">
+					<Button float="true" pos="0,0,28,17" name="minbtn" maxwidth="28" maxheight="17" normalimage="file='max_min.png' source='0,0,28,17'" hotimage="file='max_min_h.png' source='0,0,28,17'" pushedimage="file='max_min_h.png' source='0,0,28,17'"/>
+					<Button float="true" pos="28,0,56,17" name="closebtn" maxwidth="28" maxheight="17" normalimage="file='max_min.png' source='28,0,56,17'" hotimage="file='max_min_h.png' source='28,0,56,17'" pushedimage="file='max_min_h.png' source='28,0,56,17'"/>
+				</VerticalLayout>
+			</HorizontalLayout>
+			<HorizontalLayout height="60" >
+				<VerticalLayout width="70">
+					<Container pos="8,0,56,57" width="56" height="57" bkimage="file='people.png' source='0,0,56,57' dest='0,0,56,57' " float="true"/>
+				</VerticalLayout>
+				<VerticalLayout>
+					<Text text="tojen 在线" textcolor="#FFFFFF" float="true" pos="0,5,120,20"></Text>
+					<Text text="{i icon_c.png}我的未来不是梦..." textcolor="#FFFFFF" float="true" pos="0,30,120,50" showhtml="true"></Text>
+				</VerticalLayout>
+				<VerticalLayout width="80">
+					<Container pos="8,40,68,16" width="68" height="16" bkimage="file='tools.png' source='0,0,68,16' dest='0,0,68,16' " float="true"/>
+				</VerticalLayout>
+			</HorizontalLayout>
+			<HorizontalLayout height="35">
+				<VerticalLayout width="5" bkimage="file='search_left.png'"/>
+				<VerticalLayout bkimage="file='search_bk.png'" inset="-1,6,0,0">
+					<Edit height="23" bordercolor="#FFFFFFFF" name="sedit"/>
+				</VerticalLayout>
+				<VerticalLayout width="105">
+					<Button float="true" pos="0,0,64,35" normalimage="file='search_btn.png' source='0,0,64,35'" hotimage="file='search_btn.png' source='0,35,65,70'" maxwidth="64" maxheight="35"/>
+					<Button float="true" pos="64,0,105,35" normalimage="file='other_btn.png' source='0,0,41,35'" hotimage="file='other_btn.png' source='0,35,41,70'" maxwidth="64" maxheight="35"/>
+				</VerticalLayout>
+			</HorizontalLayout>
+		</VerticalLayout>	
+		<VerticalLayout width="5" bkimage="file='header_right.png'">
+		</VerticalLayout>
+	</HorizontalLayout>
+	<HorizontalLayout>
+		<VerticalLayout width="3" bkimage="file='border_left.png'">
+		</VerticalLayout>
+		<VerticalLayout bkcolor="#FFFFFFFF">
+			<HorizontalLayout bkimage="file='tab.png' source='0,29,78,58'" height="29">
+				<Option pos="0, 0, 78, 29" float="true" text="联系人" name="friend" textcolor="#FF386382" selectedtextcolor="#FF000000" font="0" normalimage="file='tab.png' source='0,29,78,58'" hotimage="file='tab.png' source='0,29,78,58'" pushedimage="file='tab.png' source='0,0,78,29'" selectedimage="file='tab.png' source='0,0,78,29'" selected="true" group="true"/>
+				<Option pos="78, 0, 156, 29" float="true" text="群组" name="group" textcolor="#FF386382" selectedtextcolor="#FF000000" font="0" normalimage="file='tab.png' source='0,29,78,58'" hotimage="file='tab.png' source='0,29,78,58'" pushedimage="file='tab.png' source='0,0,78,29'" selectedimage="file='tab.png' source='0,0,78,29'" group="true"/>
+				<Option pos="156, 0, 224, 29" float="true" text="其他" name="other" textcolor="#FF386382" selectedtextcolor="#FF000000" font="0" normalimage="file='tab.png' source='0,29,78,58'" hotimage="file='tab.png' source='0,29,78,58'" pushedimage="file='tab.png' source='0,0,78,29'" selectedimage="file='tab.png' source='0,0,78,29'" group="true"/>
+			</HorizontalLayout>
+			<HorizontalLayout>
+				<TabLayout name="switch" >
+					<HorizontalLayout>
+						<GameList name="gamelist" bkcolor="#FFF6F9FF" header="hidden" itemhotimage="file='tree_hot.bmp' corner='2,1,2,1' " itemselectedimage="file='tree_select.bmp' corner='2,1,2,1'" itemlinecolor="#FFE4EAF2" itemshowhtml="true" vscrollbar="true" hscrollbar="true">
+						</GameList>
+					</HorizontalLayout>
+					<HorizontalLayout>
+						<Text text="{i icon_c.png}" showhtml="true"/>
+					</HorizontalLayout>
+					<HorizontalLayout>
+						<Text text="其他" font="0" />
+					</HorizontalLayout>
+				</TabLayout>
+			</HorizontalLayout>
+		</VerticalLayout>
+		<VerticalLayout width="3" bkimage="file='border_right.png'">
+		</VerticalLayout>
+	</HorizontalLayout>
+	<HorizontalLayout height="30" bordercolor="#FF0000">
+		<VerticalLayout width="5" bkimage="file='footer_left.png'">
+		</VerticalLayout>
+		<VerticalLayout bkimage="file='footer.png'">
+		</VerticalLayout>
+		<VerticalLayout width="5" bkimage="file='footer_right.png'">
+		</VerticalLayout>
+	</HorizontalLayout>
+</VerticalLayout>
+</Window>

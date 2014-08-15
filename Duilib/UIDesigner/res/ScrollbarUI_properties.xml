@@ -1,0 +1,196 @@
+<Window>
+  <VerticalLayout name="Special" bkcolor="#FFE9EEEE" vscrollbar="true">
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="Horizontal:" width="230" align="left" showhtml="true"/>
+        <Combo bkcolor="#FFE9EEEE" name="Horizontal" width="230" dropboxsize="0, 150" droptype="droplist" dropbtnimage="file='list_down.png''">
+          <ListLabelElement text="true" selected="true" />
+          <ListLabelElement text="false"/>
+        </Combo>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="ScrollRange:" width="230" align="left" showhtml="true"/>
+        <Edit name="ScrollRange" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="ScrollPos:" width="230" align="left" showhtml="true"/>
+        <Edit name="ScrollPos" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="LineSize:" width="230" align="left" showhtml="true"/>
+        <Edit name="LineSize" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="Button1NormalImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="Button1NormalImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="Button1HotImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="Button1HotImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="Button1PushedImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="Button1PushedImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="Button1DisabledImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="Button1DisabledImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="Button2NormalImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="Button2NormalImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="Button2HotImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="Button2HotImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="Button2PushedImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="Button2PushedImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="Button2DisabledImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="Button2DisabledImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="ThumbNormalImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="ThumbNormalImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="ThumbHotImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="ThumbHotImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="ThumbPushedImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="ThumbPushedImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="ThumbDisabledImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="ThumbDisabledImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="RailNormalImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="RailNormalImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="RailHotImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="RailHotImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="RailPushedImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="RailPushedImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="RailDisabledImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="RailDisabledImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="BkNormalImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="BkNormalImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="BkHotImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="BkHotImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="BkPushedImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="BkPushedImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="BkDisabledImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="BkDisabledImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window sizebox="4,4,6,6" caption="0,0,0,30" roundcorner="5,5" size="600,800" mininfo="600,800" opacity="false" transparency="20">
+    <Font name="宋体" size="14" bold="false" italic="false" default="true" />
+    <Default name="Button" value="normalimage=&quot;file='button.png' source='0,0,69,22' mask='0xffffffff'&quot; hotimage=&quot;file='button.png' source='69,0,138,22' mask='0xffffffff'&quot; pushedimage=&quot;file='button.png' source='138,0,207,22' mask='0xffffffff'&quot;" />
+    <Default name="VScrollBar" value="button1normalimage=&quot;file='vscroll.png' source='0,0,16,16'&quot; button1hotimage=&quot;file='vscroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='vscroll.png' source='0,16,16,32' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='vscroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='vscroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='vscroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='vscroll.png' source='0,48,16,64' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='vscroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='vscroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='vscroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;ffile='vscroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='vscroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='vscroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='vscroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='vscroll.png' source='0,96,16,112' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='vscroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='vscroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='vscroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='vscroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='vscroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+    <Default name="HScrollBar" value="button1normalimage=&quot;file='hscroll.png' source='0,0,16,16'&quot; button1hotimage=&quot;file='hscroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='hscroll.png' source='0,16,32,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='hscroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='hscroll.png' source='32,0,48,16' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='hscroll.png' source='32,0,48,16' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='vscroll.png' source='48,0,64,16' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='hscroll.png' source='32,0,48,16' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='hscroll.png' source='64,0,80,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='hscroll.png' source='64,0,80,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;ffile='hscroll.png' source='64,0,80,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='hscroll.png' source='64,0,80,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='hscroll.png' source='80,0,96,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='hscroll.png' source='80,0,96,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='hscroll.png' source='96,0,112,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='hscroll.png' source='80,0,96,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='hscroll.png' source='128,0,146,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='hscroll.png' source='128,0,146,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='hscroll.png' source='128,0,146,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='hscroll.png' source='128,0,146,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+    <VerticalLayout bkimage="file='main.png' corner='10,80,10,40'">
+      <HorizontalLayout pos="0,0,0,50" height="50">
+        <VerticalLayout>
+          <Label text="RSS 阅读器" float="true" pos="39,12,119,44" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+          <Button bordersize="0" float="true" pos="6,12,38,44" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="rss_blue.png" hotimage="rss_blue.png" pushedimage="rss_blue.png" />
+          <Button name="closebtn" text="退出" bordersize="0" float="true" pos="504,12,584,44" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='button.png' source='0,0,69,22' mask='0xffffffff'" hotimage="file='button.png' source='69,0,138,22' mask='0xffffffff'" pushedimage="file='button.png' source='138,0,207,22' mask='0xffffffff'" />
+        </VerticalLayout>
+      </HorizontalLayout>
+      <HorizontalLayout pos="0,0,0,45" height="45" padding="5,0,5,0" bkcolor="#FFA3D9FE">
+        <Button text="添加订阅" bordersize="0" float="true" pos="6,9,116,41" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='button.png' source='0,0,69,22' mask='0xffffffff'" hotimage="file='button.png' source='69,0,138,22' mask='0xffffffff'" pushedimage="file='button.png' source='138,0,207,22' mask='0xffffffff'" />
+        <Edit float="true" pos="123,12,233,39" bkcolor="#FFFFFFFF" bordercolor="#FF000000" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Combo text="所有条目" float="true" pos="240,12,350,39" bkcolor="#FFFFFFFF" bordercolor="#FF4EA0D1" focusbordercolor="#FF85E4FF" dropboxsize="0,150" droptype="droplist" itemtextpadding="5,0,0,0" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" dropbtnimage="file='list_down.png'">
+          <ListLabelElement text="所有条目" />
+          <ListLabelElement text="已读条目" />
+          <ListLabelElement text="未读条目" />
+          <ListLabelElement text="加星标的条目" />
+          <ListLabelElement text="喜欢的条目" />
+        </Combo>
+        <Button text="搜索" bordersize="0" float="true" pos="357,9,467,41" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='button.png' source='0,0,69,22' mask='0xffffffff'" hotimage="file='button.png' source='69,0,138,22' mask='0xffffffff'" pushedimage="file='button.png' source='138,0,207,22' mask='0xffffffff'" />
+        <Button text="设置" bordersize="0" float="true" pos="476,9,586,41" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='button.png' source='0,0,69,22' mask='0xffffffff'" hotimage="file='button.png' source='69,0,138,22' mask='0xffffffff'" pushedimage="file='button.png' source='138,0,207,22' mask='0xffffffff'" foreimage="file='arrow_down.png' dest='91,13,100,17' mask='0xffffffff'" />
+      </HorizontalLayout>
+        <HorizontalLayout inset="6,0,6,0">
+            <HorizontalLayout name="switch" bkcolor="#FFFFFFFF">
+                <HorizontalLayout>
+                    <List name="todaylist" pos="0,1,600,734" width="600" height="733" itemtextcolor="#FF000000" itembkcolor="#FFFFFFFF" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFE9F5FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF">
+                        <ListContainerElement pos="0,0,0,80" height="100">
+                          <VerticalLayout>
+                            <HorizontalLayout inset="4,4,4,4" height="75">
+                                <HorizontalLayout pos="0,0,20,0" width="20">
+                                    <Option bordersize="0" pos="0,0,15,15" width="15" height="15" padding="0,5,0,0" maxheight="15" maxwidth="15" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FFFFFFFF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                                </HorizontalLayout>
+                                <VerticalLayout pos="0,0,460,0" width="460">
+                                    <Label text="豆瓣: 阴谋论症候群小组的讨论" padding="15,5,0,0" textcolor="#FF008800" disabledtextcolor="#FFA7A6AA" />
+                                  <Label text="2011年4月2日" padding="15,5,0,0" textcolor="#FF008800" disabledtextcolor="#FFA7A6AA" />
+                                </VerticalLayout>
+                                <VerticalLayout pos="0,0,100,0" width="100">
+                                    <Label text="(80条)" padding="0,5,0,0" textcolor="#FFAAAAAA" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                                </VerticalLayout>
+                            </HorizontalLayout>
+                            <HorizontalLayout inset="4,4,4,4" height="25" bkcolor="#FFF3F5FC">
+                              <Option bordersize="0" width="80" text="加注星标" height="15" padding="0,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                              <Option bordersize="0" width="80" text="喜欢" height="15" padding="10,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                              <Option bordersize="0" width="120" text="保持未读状态" height="15" padding="10,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            </HorizontalLayout>
+                          </VerticalLayout>
+                        </ListContainerElement>
+                      <ListContainerElement pos="0,0,0,80" height="100">
+                        <VerticalLayout>
+                          <HorizontalLayout inset="4,4,4,4" height="75">
+                            <HorizontalLayout pos="0,0,20,0" width="20">
+                              <Option bordersize="0" pos="0,0,15,15" width="15" height="15" padding="0,5,0,0" maxheight="15" maxwidth="15" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FFFFFFFF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            </HorizontalLayout>
+                            <VerticalLayout pos="0,0,460,0" width="460">
+                              <Label text="豆瓣: 阴谋论症候群小组的讨论" padding="15,5,0,0" textcolor="#FF008800" disabledtextcolor="#FFA7A6AA" />
+                              <Label text="2011年4月2日" padding="15,5,0,0" textcolor="#FF008800" disabledtextcolor="#FFA7A6AA" />
+                            </VerticalLayout>
+                            <VerticalLayout pos="0,0,100,0" width="100">
+                              <Label text="(80条)" padding="0,5,0,0" textcolor="#FFAAAAAA" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            </VerticalLayout>
+                          </HorizontalLayout>
+                          <HorizontalLayout inset="4,4,4,4" height="25" bkcolor="#FFF3F5FC">
+                            <Option bordersize="0" width="80" text="加注星标" height="15" padding="0,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            <Option bordersize="0" width="80" text="喜欢" height="15" padding="10,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            <Option bordersize="0" width="120" text="保持未读状态" height="15" padding="10,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                          </HorizontalLayout>
+                        </VerticalLayout>
+                      </ListContainerElement>
+                      <ListContainerElement pos="0,0,0,80" height="100">
+                        <VerticalLayout>
+                          <HorizontalLayout inset="4,4,4,4" height="75">
+                            <HorizontalLayout pos="0,0,20,0" width="20">
+                              <Option bordersize="0" pos="0,0,15,15" width="15" height="15" padding="0,5,0,0" maxheight="15" maxwidth="15" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FFFFFFFF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            </HorizontalLayout>
+                            <VerticalLayout pos="0,0,460,0" width="460">
+                              <Label text="豆瓣: 阴谋论症候群小组的讨论" padding="15,5,0,0" textcolor="#FF008800" disabledtextcolor="#FFA7A6AA" />
+                              <Label text="2011年4月2日" padding="15,5,0,0" textcolor="#FF008800" disabledtextcolor="#FFA7A6AA" />
+                            </VerticalLayout>
+                            <VerticalLayout pos="0,0,100,0" width="100">
+                              <Label text="(80条)" padding="0,5,0,0" textcolor="#FFAAAAAA" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            </VerticalLayout>
+                          </HorizontalLayout>
+                          <HorizontalLayout inset="4,4,4,4" height="25" bkcolor="#FFF3F5FC">
+                            <Option bordersize="0" width="80" text="加注星标" height="15" padding="0,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            <Option bordersize="0" width="80" text="喜欢" height="15" padding="10,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            <Option bordersize="0" width="120" text="保持未读状态" height="15" padding="10,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                          </HorizontalLayout>
+                        </VerticalLayout>
+                      </ListContainerElement>
+                      <ListContainerElement pos="0,0,0,80" height="100">
+                        <VerticalLayout>
+                          <HorizontalLayout inset="4,4,4,4" height="75">
+                            <HorizontalLayout pos="0,0,20,0" width="20">
+                              <Option bordersize="0" pos="0,0,15,15" width="15" height="15" padding="0,5,0,0" maxheight="15" maxwidth="15" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FFFFFFFF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            </HorizontalLayout>
+                            <VerticalLayout pos="0,0,460,0" width="460">
+                              <Label text="豆瓣: 阴谋论症候群小组的讨论" padding="15,5,0,0" textcolor="#FF008800" disabledtextcolor="#FFA7A6AA" />
+                              <Label text="2011年4月2日" padding="15,5,0,0" textcolor="#FF008800" disabledtextcolor="#FFA7A6AA" />
+                            </VerticalLayout>
+                            <VerticalLayout pos="0,0,100,0" width="100">
+                              <Label text="(80条)" padding="0,5,0,0" textcolor="#FFAAAAAA" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            </VerticalLayout>
+                          </HorizontalLayout>
+                          <HorizontalLayout inset="4,4,4,4" height="25" bkcolor="#FFF3F5FC">
+                            <Option bordersize="0" width="80" text="加注星标" height="15" padding="0,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            <Option bordersize="0" width="80" text="喜欢" height="15" padding="10,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            <Option bordersize="0" width="120" text="保持未读状态" height="15" padding="10,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                          </HorizontalLayout>
+                        </VerticalLayout>
+                      </ListContainerElement>
+                      <ListContainerElement pos="0,0,0,80" height="100">
+                        <VerticalLayout>
+                          <HorizontalLayout inset="4,4,4,4" height="75">
+                            <HorizontalLayout pos="0,0,20,0" width="20">
+                              <Option bordersize="0" pos="0,0,15,15" width="15" height="15" padding="0,5,0,0" maxheight="15" maxwidth="15" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FFFFFFFF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            </HorizontalLayout>
+                            <VerticalLayout pos="0,0,460,0" width="460">
+                              <Label text="豆瓣: 阴谋论症候群小组的讨论" padding="15,5,0,0" textcolor="#FF008800" disabledtextcolor="#FFA7A6AA" />
+                              <Label text="2011年4月2日" padding="15,5,0,0" textcolor="#FF008800" disabledtextcolor="#FFA7A6AA" />
+                            </VerticalLayout>
+                            <VerticalLayout pos="0,0,100,0" width="100">
+                              <Label text="(80条)" padding="0,5,0,0" textcolor="#FFAAAAAA" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            </VerticalLayout>
+                          </HorizontalLayout>
+                          <HorizontalLayout inset="4,4,4,4" height="25" bkcolor="#FFF3F5FC">
+                            <Option bordersize="0" width="80" text="加注星标" height="15" padding="0,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            <Option bordersize="0" width="80" text="喜欢" height="15" padding="10,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                            <Option bordersize="0" width="120" text="保持未读状态" height="15" padding="10,0,0,0" maxheight="15" textcolor="#FF0000FF" disabledtextcolor="#FFA7A6AA" align="left" normalimage="file='checkbox.png' source='0,0,15,15' mask='0xffffffff'" fitallArea="false" selected="true" selectedtextcolor="#FF0000FF" selectedimage="file='checkbox.png' source='30,0,45,15' mask='0xffffffff'" />
+                          </HorizontalLayout>
+                        </VerticalLayout>
+                      </ListContainerElement>
+                    </List>
+                </HorizontalLayout>
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout pos="0,0,0,55" height="55" inset="2,2,2,2">
+            <VerticalLayout>
+                <Container float="true" pos="280,2,320,53" bkimage="file='navpanel_middle.png'" />
+                <Container float="true" pos="0,11,16,44" bkimage="file='navpanel_left.png'" />
+                <Container float="true" pos="16,11,280,44" bkimage="file='navpanel_side.png'" />
+                <Container float="true" pos="320,11,580,44" bkimage="file='navpanel_side.png'" />
+                <Container float="true" pos="580,11,596,44" bkimage="file='navpanel_right.png'" />
+                <Button name="zoom" float="true" pos="113,15,150,40" maxheight="25" maxwidth="37" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='navbuttons_zoom.png' source='37,0,74,25'" hotimage="file='navbuttons_zoom.png' source='74,0,111,25'" pushedimage="file='navbuttons_zoom.png' source='111,0,148,25'" />
+                <Button name="sort" float="true" pos="175,15,201,40" maxheight="25" maxwidth="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='navbuttons_reset.png' source='26,0,52,25'" hotimage="file='navbuttons_reset.png' source='52,0,78,25'" pushedimage="file='navbuttons_reset.png' source='78,0,104,25'" />
+                <Button name="back" float="true" pos="225,15,276,40" maxheight="25" maxwidth="51" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='navbuttons_back.png' source='51,0,102,25'" hotimage="file='navbuttons_back.png' source='102,0,153,25'" pushedimage="file='navbuttons_back.png' source='153,0,204,25'" />
+                <Button name="center" tooltip="tooltip test" float="true" pos="276,3,324,51" maxheight="48" maxwidth="42" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='navbuttons_run.png' source='44,0,88,48'" hotimage="file='navbuttons_run.png' source='88,0,132,48'" pushedimage="file='navbuttons_run.png' source='132,0,176,48'" />
+                <Button name="forward" float="true" pos="324,15,375,40" maxheight="25" maxwidth="51" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='navbuttons_forward.png' source='51,0,102,25'" hotimage="file='navbuttons_forward.png' source='102,0,153,25'" pushedimage="file='navbuttons_forward.png' source='153,0,204,25'" />
+                <Button name="rotateleft" float="true" pos="400,15,425,40" maxheight="25" maxwidth="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='navbuttons_rotleft.png' source='25,0,50,25'" hotimage="file='navbuttons_rotleft.png' source='50,0,75,25'" pushedimage="file='navbuttons_rotleft.png' source='75,0,100,25'" />
+                <Button name="rotateright" float="true" pos="425,15,450,40" maxheight="25" maxwidth="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='navbuttons_rotright.png' source='25,0,50,25'" hotimage="file='navbuttons_rotright.png' source='50,0,75,25'" pushedimage="file='navbuttons_rotright.png' source='75,0,100,25'" />
+                <Button name="delete" float="true" pos="475,15,500,40" maxheight="25" maxwidth="25" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file='navbuttons_delete.png' source='25,0,50,25'" hotimage="file='navbuttons_delete.png' source='50,0,75,25'" pushedimage="file='navbuttons_delete.png' source='75,0,100,25'" />
+            </VerticalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <Container width="200" height="300" inset="2,2,2,2">
+    <Container name="listitem">
+      <Button mouse="false" name="thumbnail" float="true" pos="0,0,200,250" bkimage="file='19931.jpg'" />
+      <Label float="true" font="1" text="庄子" align="center" textcolor="#FF558CC4" pos="0,250,200,300" mouse="false" />
+    </Container>
+  </Container>
+</Window>

@@ -1,0 +1,96 @@
+<Window>
+  <VerticalLayout name="Special" bkcolor="#FFE9EEEE" vscrollbar="true">
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textcolor:" width="230" align="left" showhtml="true"/>
+        <Edit name="textcolor" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="disabletextcolor:" width="230" align="left" showhtml="true"/>
+        <Edit name="disabletextcolor" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textpadding_left:" width="230" align="left" showhtml="true"/>
+        <Edit name="textpadding_left" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textpadding_top:" width="230" align="left" showhtml="true"/>
+        <Edit name="textpadding_top" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textpadding_right:" width="230" align="left" showhtml="true"/>
+        <Edit name="textpadding_right" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textpadding_bottom:" width="230" align="left" showhtml="true"/>
+        <Edit name="textpadding_bottom" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="showhtml:" width="230" align="left" showhtml="true"/>
+        <Combo bkcolor="#FFE9EEEE" bkcolor="#FFE9EEEE" name="showhtml" width="230" dropboxsize="0, 150" droptype="droplist" dropbtnimage="file='list_down.png''">
+          <ListLabelElement text="true" selected="true" />
+          <ListLabelElement text="false"/>
+        </Combo>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="readonly:" width="230" align="left" showhtml="true"/>
+        <Combo bkcolor="#FFE9EEEE" bkcolor="#FFE9EEEE" name="readonly" width="230" dropboxsize="0, 150" droptype="droplist" dropbtnimage="file='list_down.png''">
+          <ListLabelElement text="true" />
+          <ListLabelElement text="false" selected="true"/>
+        </Combo>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="DigitalNumber:" width="230" align="left" showhtml="true"/>
+        <Combo bkcolor="#FFE9EEEE" bkcolor="#FFE9EEEE" name="digitalNumber" width="230" dropboxsize="0, 150" droptype="droplist" dropbtnimage="file='list_down.png''">
+          <ListLabelElement text="true" />
+          <ListLabelElement text="false" selected="true"/>
+        </Combo>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="PasswordMode:" width="230" align="left" showhtml="true"/>
+        <Combo bkcolor="#FFE9EEEE" bkcolor="#FFE9EEEE" name="PasswordMode" width="230" dropboxsize="0, 150" droptype="droplist" dropbtnimage="file='list_down.png''">
+          <ListLabelElement text="true" />
+          <ListLabelElement text="false" selected="true"/>
+        </Combo>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="PasswordChar:" width="230" align="left" showhtml="true"/>
+        <Edit name="PasswordChar" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+  </VerticalLayout>
+</Window>

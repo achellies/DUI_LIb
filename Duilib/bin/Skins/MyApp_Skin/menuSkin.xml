@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window size="136,160" caption="0,0,0,23" mininfo="136,160">
+  <Font name="微软雅黑" size="10" />
+  <Font name="微软雅黑" size="12" />
+  <Font name="微软雅黑" size="14" />
+  <Font name="宋体" size="13" bold="true" />
+  <Font name="宋体" size="12" bold="true" />
+  <Font name="宋体" size="12" />
+  <Font name="宋体" size="14" bold="true" />
+  <Container>
+    <VerticalLayout name="main" bordercolor="#0611DCFF" bordersize="1" inset="1,1,1,1">
+      
+      <VerticalLayout height="25">
+        <HorizontalLayout bkcolor="#FFFFFFFF">
+              <Option pos="0, 0,68,23" float="true" text="颜色设置" name="ColorSet" textcolor="#FF386382" selectedtextcolor="#FF000000" font="1" normalimage="file='tab.bmp' source='0,0,68,23' mask='#FF00FFFF'" hotimage="file='tab.bmp' source='0,0,68,23' mask='#FF00FFFF'" pushedimage="file='tab.bmp' source='0,0,68,23' mask='#FF00FFFF'" selectedimage="file='tab.bmp' source='68,0,136,23' mask='#FF00FFFF'" group="true" selected="true" />
+              <Option pos="68,0,136,23" float="true" text="底纹设置" name="BaseTextureSet" textcolor="#FF386382" selectedtextcolor="#FF000000" font="1" normalimage="file='tab.bmp' source='0,0,68,23' mask='#FF00FFFF'" hotimage="file='tab.bmp' source='0,0,68,23' mask='#FF00FFFF'" pushedimage="file='tab.bmp' source='0,0,68,23' mask='#FF00FFFF'" selectedimage="file='tab.bmp' source='68,0,136,23' mask='#FF00FFFF'" group="true"/>
+        </HorizontalLayout>
+      </VerticalLayout>
+
+      <TabLayout name="switch">
+        <VerticalLayout name="color" bkcolor="#FFFFFFFF">
+
+          <VerticalLayout name="color" bkcolor="#FFFFFFFF" height="48">
+            <VerticalLayout name="colorSelect1">
+              <HorizontalLayout height="24">
+                <HorizontalLayout height="24" inset="5,3,5,0">
+                  <Button normalimage="file='colors.bmp' source='0,0,24,24' mask='#FFFF00FF'" hotimage="file='colors.bmp' source='24,0,48,24' mask='#FFFFFFFF'" pushedimage="file='colors.bmp' source='48,0,72,24' mask='#FFFFFFFF'"/>
+                  <Button normalimage="file='colors.bmp' source='72,0,96,24' mask='#FFFF00FF'" hotimage="file='colors.bmp' source='96,0,120,24' mask='#FFFFFFFF'" pushedimage="file='colors.bmp' source='120,0,144,24' mask='#FFFFFFFF'"/>
+                  <Button normalimage="file='colors.bmp' source='144,0,168,24' mask='#FFFF00FF'" hotimage="file='colors.bmp' source='168,0,192,24' mask='#FFFFFFFF'" pushedimage="file='colors.bmp' source='192,0,216,24' mask='#FFFFFFFF'"/>
+                  <Button normalimage="file='colors.bmp' source='216,0,240,24' mask='#FFFF00FF'" hotimage="file='colors.bmp' source='240,0,264,24' mask='#FFFFFFFF'" pushedimage="file='colors.bmp' source='264,0,288,24' mask='#FFFFFFFF'"/>
+                </HorizontalLayout>
+              </HorizontalLayout>
+            </VerticalLayout>
+
+            <VerticalLayout name="colorSelect2" height="24">
+              <HorizontalLayout height="24">
+                <HorizontalLayout height="24" inset="5,3,5,0">
+                  <Button normalimage="file='colors.bmp' source='0,24,24,48' mask='#FFFF00FF'" hotimage="file='colors.bmp' source='24,24,48,48' mask='#FFFFFFFF'" pushedimage="file='colors.bmp' source='48,24,72,48' mask='#FFFFFFFF'"/>
+                  <Button normalimage="file='colors.bmp' source='72,24,96,48' mask='#FFFF00FF'" hotimage="file='colors.bmp' source='96,24,120,48' mask='#FFFFFFFF'" pushedimage="file='colors.bmp' source='120,24,144,48' mask='#FFFFFFFF'"/>
+                  <Button normalimage="file='colors.bmp' source='144,24,168,48' mask='#FFFF00FF'" hotimage="file='colors.bmp' source='168,24,192,48' mask='#FFFFFFFF'" pushedimage="file='colors.bmp' source='192,24,216,48' mask='#FFFFFFFF'"/>
+                  <Button normalimage="file='colors.bmp' source='216,24,240,48' mask='#FFFF00FF'" hotimage="file='colors.bmp' source='240,24,264,48' mask='#FFFFFFFF'" pushedimage="file='colors.bmp' source='264,24,288,48' mask='#FFFFFFFF'"/>
+                </HorizontalLayout>
+              </HorizontalLayout>
+            </VerticalLayout>
+          </VerticalLayout>
+
+          <VerticalLayout name="colorSelect3" inset="4,4,5,4">
+            <VerticalLayout>
+              <Slider name="hue" inset="0,2,0,2" bordersize="0" height="18" thumbimage="slider.png" thumbhotimage="slider.png" thumbpushedimage="slider.png" hor="true" bkimage="file='adj_hue.bmp' source='0,0,124,6' dest='1,6,124,12' mask='#FFFF00FF'"  thumbsize="12,18" />
+            </VerticalLayout>
+            <VerticalLayout>
+              <Slider name="lig" bordersize="0" height="18" thumbimage="slider.png" thumbhotimage="slider.png" thumbpushedimage="slider.png" hor="true" bkimage="file='adj_lum.bmp' source='0,0,124,6' dest='1,6,123,12' mask='#FFFF00FF'" thumbsize="12,18" />
+            </VerticalLayout>
+            <VerticalLayout>
+              <Slider name="sat" bordersize="0" height="18" thumbimage="slider.png" thumbhotimage="slider.png" thumbpushedimage="slider.png" hor="true" bkimage="file='adj_sum.bmp' source='0,0,124,6' dest='1,6,123,12' mask='#FFFF00FF'" thumbsize="12,18" />
+            </VerticalLayout>
+            <VerticalLayout>
+              <Slider name="alpha" bordersize="0" height="18" thumbimage="slider.png" thumbhotimage="slider.png" thumbpushedimage="slider.png" hor="true" bkimage="file='adj_trans.bmp' source='0,0,124,6' dest='1,6,123,12' mask='#FFFF00FF'" thumbsize="12,18" />
+            </VerticalLayout>
+          </VerticalLayout>
+
+        </VerticalLayout>
+
+
+        <VerticalLayout name="basetexture" bkcolor="#FFFFFFFF" visible="false">
+
+          <VerticalLayout name="TextureSelect1">
+            <HorizontalLayout height="35">
+              <HorizontalLayout height="35" inset="5,3,5,0">
+                <Button normalimage="file='textures.bmp' source='0,0,35,35' mask='#FFFF00FF'" hotimage="file='textures.bmp' source='35,0,70,35' mask='#FFFFFFFF'" pushedimage="file='textures.bmp' source='70,0,105,35' mask='#FFFFFFFF'"/>
+                <Button normalimage="file='textures.bmp' source='105,0,140,35' mask='#FFFF00FF'" hotimage="file='textures.bmp' source='140,0,175,35' mask='#FFFFFFFF'" pushedimage="file='textures.bmp' source='175,0,210,35' mask='#FFFFFFFF'"/>
+                <Button normalimage="file='textures.bmp' source='210,0,245,35' mask='#FFFF00FF'" hotimage="file='textures.bmp' source='245,0,280,35' mask='#FFFFFFFF'" pushedimage="file='textures.bmp' source='280,0,315,35' mask='#FFFFFFFF'"/>
+              </HorizontalLayout>
+            </HorizontalLayout>
+          </VerticalLayout>
+
+          <VerticalLayout name="TextureSelect2">
+            <HorizontalLayout height="35">
+              <HorizontalLayout height="35" inset="5,3,5,0">
+                <Button normalimage="file='textures.bmp' source='0,35,35,70' mask='#FFFF00FF'" hotimage="file='textures.bmp' source='35,35,70,70' mask='#FFFFFFFF'" pushedimage="file='textures.bmp' source='70,35,105,70' mask='#FFFFFFFF'"/>
+                <Button normalimage="file='textures.bmp' source='105,35,140,70' mask='#FFFF00FF'" hotimage="file='textures.bmp' source='140,35,175,70' mask='#FFFFFFFF'" pushedimage="file='textures.bmp' source='175,35,210,70' mask='#FFFFFFFF'"/>
+                <Button normalimage="file='textures.bmp' source='210,35,245,70' mask='#FFFF00FF'" hotimage="file='textures.bmp' source='245,35,280,70' mask='#FFFFFFFF'" pushedimage="file='textures.bmp' source='280,35,315,70' mask='#FFFFFFFF'"/>
+              </HorizontalLayout>
+            </HorizontalLayout>
+          </VerticalLayout>
+
+          <VerticalLayout name="TextureSelect3">
+            <HorizontalLayout height="35">
+              <HorizontalLayout height="35" inset="5,3,5,0">
+                <Button normalimage="file='textures.bmp' source='0,70,35,105' mask='#FFFF00FF'" hotimage="file='textures.bmp' source='35,70,70,105' mask='#FFFFFFFF'" pushedimage="file='textures.bmp' source='70,70,105,105' mask='#FFFFFFFF'"/>
+                <Button normalimage="file='textures.bmp' source='105,70,140,105' mask='#FFFF00FF'" hotimage="file='textures.bmp' source='140,70,175,105' mask='#FFFFFFFF'" pushedimage="file='textures.bmp' source='175,70,210,105' mask='#FFFFFFFF'"/>
+                <Button normalimage="file='textures.bmp' source='210,70,245,105' mask='#FFFF00FF'" hotimage="file='textures.bmp' source='245,70,280,105' mask='#FFFFFFFF'" pushedimage="file='textures.bmp' source='280,70,315,105' mask='#FFFFFFFF'"/>
+              </HorizontalLayout>
+            </HorizontalLayout>
+          </VerticalLayout>
+
+        </VerticalLayout>
+
+      </TabLayout>
+      
+      </VerticalLayout>
+  </Container>
+</Window>

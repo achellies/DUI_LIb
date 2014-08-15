@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window sizebox="4,4,6,6" caption="0,0,0,30" roundcorner="5,5" size="380,500" mininfo="380,500" opacity="false" transparency="20">
+    <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" bkimage="file='main.png' corner='10,100,10,50'">
+        <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1" height="24">
+            <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" width="100" inset="23,3,3,3">
+                <Button name="" text="" tooltip="" float="true" bordersize="1" pos="3,3,19,19" width="16" height="16" bkimage="file='logo.png'" maxheight="16" maxwidth="16" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" />
+                <Label name="" text="QQ旋风" tooltip="" float="false" bordersize="1" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" showhtml="false" />
+            </VerticalLayout>
+            <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" />
+            <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" width="130">
+                <Button name="" text="" tooltip="" float="true" bordersize="1" pos="0,0,27,20" width="27" height="20" maxheight="20" maxwidth="27" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" normalimage="file='comm_button.bmp' source='0,0,27,20'" hotimage="file='comm_button.bmp' source='27,0,54,20'" pushedimage="file='comm_button.bmp' source='54,0,81,20'" />
+                <Button name="" text="" tooltip="" float="true" bordersize="0" pos="27,0,53,20" width="26" height="20" maxheight="20" maxwidth="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" normalimage="file='comm_button.bmp' source='0,20,26,40'" hotimage="file='comm_button.bmp' source='26,20,52,40'" pushedimage="file='comm_button.bmp' source='52,20,78,40'" />
+                <Button name="" text="" tooltip="" float="true" bordersize="0" pos="53,0,79,20" width="26" height="20" maxheight="20" maxwidth="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" normalimage="file='comm_button.bmp' source='0,40,28,60'" hotimage="file='comm_button.bmp' source='27,40,55,60'" pushedimage="file='comm_button.bmp' source='54,40,82,60'" />
+                <Button name="closebtn" text="" tooltip="" float="true" bordersize="1" pos="78,0,119,20" width="41" height="20" maxheight="20" maxwidth="41" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" normalimage="file='comm_button.bmp' source='0,60,41,80'" hotimage="file='comm_button.bmp' source='41,60,82,80'" pushedimage="file='comm_button.bmp' source='82,60,123,80'" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1" height="31" inset="2,2,2,1">
+            <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" inset="5,3,0,3">
+                <Edit name="" text="" tooltip="" float="false" bordersize="1" height="22" bkimage="file='search.bmp' corner='2,0,0,0'" bkcolor="#FFFFFFFF" textpadding="4,4,4,4" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="false" />
+            </VerticalLayout>
+            <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" width="30">
+                <Button name="" text="" tooltip="" float="false" bordersize="1" width="30" height="28" maxheight="28" maxwidth="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" normalimage="file='zoom.bmp' source='30,0,60,28'" hotimage="file='zoom.bmp' source='60,0,90,28'" pushedimage="file='zoom.bmp' source='90,0,120,28'" />
+            </VerticalLayout>
+            <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" width="80">
+                <Button name="" text=" 资源库" tooltip="" float="false" bordersize="1" width="90" height="30" bkimage="file='ico.png' dest='1,5,19,23'" maxheight="28" maxwidth="150" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" hotimage="file='resrc_btn.bmp' source='0,28,79,56'" pushedimage="file='resrc_btn.bmp' source='0,56,79,84'" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1" height="30">
+            <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                <Option name="todaydown" text="正在下载" tooltip="" float="true" bordersize="0" pos="5,0,125,30" width="120" height="30" bordercolor="#FF768D9B" textpadding="0,0,0,2" textcolor="#FF386382" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" normalimage="file='tab_button.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='tab_button.png' source='0,120,120,150' corner='2,2,2,2'" fitallArea="true" group="true" selected="true" selectedtextcolor="#FFFF0000" selectedimage="file='tab_button.png' source='0,0,120,30' corner='2,2,2,2'" />
+                <Option name="historydown" text="完成下载" tooltip="" float="true" bordersize="0" pos="130,0,250,30" width="120" height="30" bordercolor="#FF768D9B" textpadding="0,0,0,2" textcolor="#FF386382" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" normalimage="file='tab_button.png' source='0,90,120,120' corner='2,2,2,2'" hotimage="file='tab_button.png' source='0,120,120,150' corner='2,2,2,2'" fitallArea="true" group="true" selectedtextcolor="#FFFF0000" selectedimage="file='tab_button.png' source='0,0,120,30' corner='2,2,2,2'" />
+            </VerticalLayout>
+            <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" width="40" />
+        </HorizontalLayout>
+        <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1" inset="6,0,6,0">
+            <TabLayout name="switch" text="" tooltip="" float="false" bordersize="1" bkcolor="#FFFFFFFF">
+                <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                    <List name="todaylist" text="" tooltip="" float="false" bordersize="1" itemtextcolor="#FF000000" itembkcolor="#FFFFFFFF" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFE9F5FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF">
+                        <ListContainerElement name="" text="" tooltip="" float="false" bordersize="1" height="60">
+                            <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1" inset="4,4,4,4">
+                                <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" width="40">
+                                    <Button name="" text="" tooltip="" float="false" bordersize="0" width="32" height="26" padding="0,5,0,0" bkimage="downlist_app.png" maxheight="26" maxwidth="32" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" normalimage="file='downlist_ok.png' dest='20,14,32,26'" />
+                                </VerticalLayout>
+                                <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                                    <Label name="" text="chromium.r79252.tgz" tooltip="" float="false" bordersize="1" padding="2,2,2,2" textcolor="#FFAAAAAA" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                                    <Progress name="" text="" tooltip="" float="false" bordersize="1" height="12" bkimage="file='progress_back.png' corner='3,3,3,3'" maxheight="12" maxwidth="200" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" fgimage="file='progress_fore.png' corner='3,3,3,3'" min="0" max="100" value="20" hor="true" />
+                                    <Label name="" text="http://v12.lscache7.c.bigcache.googleapis.com/chromium-browser-source/chromium.r79" tooltip="" float="false" bordersize="1" textcolor="#FF008800" disabledtextcolor="#FFA7A6AA" showhtml="false" />
+                                </VerticalLayout>
+                                <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" width="80">
+                                    <Label name="" text="20%" tooltip="" float="false" bordersize="1" textcolor="#FFAAAAAA" disabledtextcolor="#FFA7A6AA" showhtml="true" align="right" />
+                                    <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                                        <Label name="" text="180mb/900mb" tooltip="" float="false" bordersize="1" textcolor="#FFAAAAAA" disabledtextcolor="#FFA7A6AA" showhtml="true" align="right" />
+                                    </HorizontalLayout>
+                                </VerticalLayout>
+                            </HorizontalLayout>
+                        </ListContainerElement>
+                        <ListContainerElement name="" text="" tooltip="" float="false" bordersize="1" height="60">
+                            <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1" inset="4,4,4,4">
+                                <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" width="40">
+                                    <Button name="" text="" tooltip="" float="false" bordersize="0" width="32" height="26" padding="0,5,0,0" bkimage="downlist_app.png" maxheight="26" maxwidth="32" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" normalimage="file='downlist_ok.png' dest='20,14,32,26'" />
+                                </VerticalLayout>
+                                <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                                    <Label name="" text="zh-google-cpp-styleguide.zip" tooltip="" float="false" bordersize="1" padding="2,2,2,2" textcolor="#FFAAAAAA" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                                    <Progress name="" text="" tooltip="" float="false" bordersize="1" height="12" bkimage="file='progress_back.png' corner='3,3,3,3'" maxheight="12" maxwidth="200" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="false" align="center" fgimage="file='progress_fore.png' corner='3,3,3,3'" min="0" max="100" value="40" hor="true" />
+                                    <Label name="" text="http://zh-google-styleguide.googlecode.com/files/zh-google-cpp-styleguide.zip" tooltip="" float="false" bordersize="1" textcolor="#FF008800" disabledtextcolor="#FFA7A6AA" showhtml="false" />
+                                </VerticalLayout>
+                                <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" width="80">
+                                    <Label name="" text="40%" tooltip="" float="false" bordersize="1" textcolor="#FFAAAAAA" disabledtextcolor="#FFA7A6AA" showhtml="true" align="right" />
+                                    <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                                        <Label name="" text="80kb/200kb" tooltip="" float="false" bordersize="1" textcolor="#FFAAAAAA" disabledtextcolor="#FFA7A6AA" showhtml="true" align="right" />
+                                    </HorizontalLayout>
+                                </VerticalLayout>
+                            </HorizontalLayout>
+                        </ListContainerElement>
+                    </List>
+                </HorizontalLayout>
+                <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                    <List name="historylist" text="" tooltip="" float="false" bordersize="1" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFFFFFFF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF">
+                        <ListContainerElement name="" text="" tooltip="" float="false" bordersize="1" height="60">
+                            <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                                <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1" height="40" inset="4,4,4,4">
+                                    <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" width="40">
+                                        <Button name="" text="" tooltip="" float="false" bordersize="0" width="32" height="26" padding="0,5,0,0" bkimage="downlist_app.png" maxheight="26" maxwidth="32" showhtml="false" align="center" normalimage="file='downlist_ok.png' dest='20,14,32,26'" />
+                                    </VerticalLayout>
+                                    <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                                        <Label name="" text="{u}chromium.r79252.tgz{/u}" tooltip="" float="false" bordersize="1" padding="2,2,2,2" textcolor="#FF0000EE" showhtml="true" />
+                                        <Label name="" text="http://v12.lscache7.c.bigcache.googleapis.com/chromium-browser-source/chromium.r79" tooltip="" float="false" bordersize="1" textcolor="#FF008800" showhtml="false" />
+                                    </VerticalLayout>
+                                </HorizontalLayout>
+                                <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                                    <Button name="" text="{u}在文件夹中显示{/u}" tooltip="" float="false" bordersize="1" textcolor="#FF777777" showhtml="true" align="center" hottextcolor="#FF0000EE" />
+                                    <Button name="" text="{u}从列表中删除{/u}" tooltip="" float="false" bordersize="1" textcolor="#FF777777" showhtml="true" align="center" hottextcolor="#FF0000EE" />
+                                </HorizontalLayout>
+                            </VerticalLayout>
+                        </ListContainerElement>
+                        <ListContainerElement name="" text="" tooltip="" float="false" bordersize="1" height="60">
+                            <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                                <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1" height="40" inset="4,4,4,4">
+                                    <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1" width="40">
+                                        <Button name="" text="" tooltip="" float="false" bordersize="0" width="32" height="26" padding="0,5,0,0" bkimage="downlist_app.png" maxheight="26" maxwidth="32" showhtml="false" align="center" normalimage="file='downlist_ok.png' dest='20,14,32,26'" />
+                                    </VerticalLayout>
+                                    <VerticalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                                        <Label name="" text="{u}zh-google-cpp-styleguide.zip{/u}" tooltip="" float="false" bordersize="1" padding="2,2,2,2" textcolor="#FF0000EE" showhtml="true" />
+                                        <Label name="" text="http://zh-google-styleguide.googlecode.com/files/zh-google-cpp-styleguide.zip" tooltip="" float="false" bordersize="1" textcolor="#FF008800" showhtml="false" />
+                                    </VerticalLayout>
+                                </HorizontalLayout>
+                                <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1">
+                                    <Button name="" text="{u}在文件夹中显示{/u}" tooltip="" float="false" bordersize="1" textcolor="#FF777777" showhtml="true" align="center" hottextcolor="#FF0000EE" />
+                                    <Button name="" text="{u}从列表中删除{/u}" tooltip="" float="false" bordersize="1" textcolor="#FF777777" showhtml="true" align="center" hottextcolor="#FF0000EE" />
+                                </HorizontalLayout>
+                            </VerticalLayout>
+                        </ListContainerElement>
+                    </List>
+                </HorizontalLayout>
+            </TabLayout>
+        </HorizontalLayout>
+        <HorizontalLayout name="" text="" tooltip="" float="false" bordersize="1" height="34" inset="5,8,5,5" />
+    </VerticalLayout>
+</Window>

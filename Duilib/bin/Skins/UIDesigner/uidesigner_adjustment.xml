@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="800,570" roundcorner="20,20">
+  <VerticalLayout bkcolor="#FFE9EEEE" bordersize="0" vscrollbar="true">
+
+    <HorizontalLayout height="32">
+      <HorizontalLayout bkimage="tree_top.png">
+        <Label align="center" textcolor="#FF000000" />
+      </HorizontalLayout>
+    </HorizontalLayout>
+    <VerticalLayout inset="10,3,3,3">
+      <VerticalLayout vscrollbar="true">
+        <Button name="eAdjustmentAlign2Left" minwidth="26" minheight="26" tooltip="左端对齐" normalimage="file='adjustment.png' source='0,0,26,26'"/>
+        <Button name="eAdjustmentAlign2VCenter" minwidth="26" minheight="26" tooltip="左右居中" normalimage="file='adjustment.png' source='0,26,26,52'"/>
+        <Button name="eAdjustmentAlign2Right" minwidth="26" minheight="26" tooltip="右端对齐" normalimage="file='adjustment.png' source='0,52,26,78'"/>
+        <Button name="eAdjustmentAlign2Top" minwidth="26" minheight="26" tooltip="顶端对齐" normalimage="file='adjustment.png' source='0,78,26,104'"/>
+        <Button name="eAdjustmentAlign2HCenter" minwidth="26" minheight="26" tooltip="上下居中" normalimage="file='adjustment.png' source='0,104,26,130'"/>
+        <Button name="eAdjustmentAlign2Bottom" minwidth="26" minheight="26" tooltip="底端对齐" normalimage="file='adjustment.png' source='0,130,26,156'"/>
+        <Button name="eAdjustmentTransverseDistribution" minwidth="26" minheight="26" tooltip="横向分布" normalimage="file='adjustment.png' source='0,156,26,182'"/>
+        <Button name="eAdjustmentLongitudinalDistribution" minwidth="26" minheight="26" tooltip="纵向分布" normalimage="file='adjustment.png' source='0,182,26,208'"/>
+        <Button name="eAdjustmentVerticalLCenter" minwidth="26" minheight="26" tooltip="单一控件垂直居中" normalimage="file='adjustment.png' source='0,208,26,234'"/>
+        <Button name="eAdjustmentHorizontalCenter" minwidth="26" minheight="26" tooltip="单一控件水平居中" normalimage="file='adjustment.png' source='0,234,26,260'"/>
+        <Button name="eAdjustmentSameWidth" minwidth="26" minheight="26" tooltip="使控件宽度相等" normalimage="file='adjustment.png' source='0,260,26,286'"/>
+        <Button name="eAdjustmentSameHeight" minwidth="26" minheight="26" tooltip="使控件高度相等" normalimage="file='adjustment.png' source='0,286,26,312'"/>
+        <Button name="eAdjustmentSameSize" minwidth="26" minheight="26" tooltip="使控件大小相等" normalimage="file='adjustment.png' source='0,312,26,338'"/>
+        <Button name="eAdjustmentProperties" minwidth="26" minheight="26" tooltip="控件属性窗口" normalimage="file='adjustment.png' source='0,338,26,364'"/>
+      </VerticalLayout>
+    </VerticalLayout>
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window size="650,490" caption="0,0,0,31" mininfo="650,490"  roundcorner="5,5">
+  <Font name="微软雅黑" size="10" />
+  <Font name="微软雅黑" size="12" />
+  <Font name="微软雅黑" size="14" />
+  <Font name="宋体" size="13" bold="true" />
+  <Font name="宋体" size="12" bold="true" />
+  <Font name="宋体" size="12" />
+  <Font name="宋体" size="14" bold="true" />
+  <Container>
+    <VerticalLayout bkcolor="#FFF2F9FF" inset="0,0,1,1">
+      <VerticalLayout name="top" height="31">
+        <HorizontalLayout>
+          <HorizontalLayout>
+            <Control width="10" bkimage="file='bordertl.bmp' source='0,0,10,31' corner='0,0,6,3' mask='#FFFF00FF'"/>
+            <Control bkimage="file='bordertm.bmp' source='0,0,5,31' mask='#FFFF00FF'"/>
+            <Control width="10" bkimage="file='bordertr.bmp' source='0,0,10,31' corner='0,0,6,3' mask='#FFFF00FF'"/>
+            <Container height="22" float="true" pos="5,4,21,20" bkimage="file='QQGame.bmp' source='0,0,16,16' mask='#FFFF00FF'" />
+            <Text text="游戏设置" float="true" pos="22, 6, 200, 24" textcolor="#FF447AA1" font="3" />
+            <Button name="btnClose" float="true" pos="570,0,601,22" maxwidth="31" maxheight="22" normalimage="file='MinBtn.bmp' source='0,0,31,22' mask='#FFFF00FF'" hotimage="file='MinBtn.bmp' source='31,0,62,22' mask='#FFFF00FF'" pushedimage="file='MinBtn.bmp' source='62,0,93,22' mask='#FFFF00FF'" />
+            <Button name="btnMin" float="true" pos="601,0,638,22"  maxwidth="37" maxheight="22" normalimage="file='CloseBtn.bmp' source='0,0,37,22' mask='#FFFF00FF'" hotimage="file='CloseBtn.bmp' source='37,0,74,22' mask='#FFFF00FF'" pushedimage="file='CloseBtn.bmp' source='74,0,111,22' mask='#FFFF00FF'" />
+
+          </HorizontalLayout>
+        </HorizontalLayout>
+      </VerticalLayout>
+
+      <VerticalLayout name="main" inset="4,2,4,2" bordercolor="#0077A8FF" bordersize="1">
+        <HorizontalLayout>
+          <HorizontalLayout name="left" width="120" bordercolor="#76ABD3FF" bordersize="1" inset="1,1,1,1">
+            <VerticalLayout>
+              <VerticalLayout name="personSetList" height="100">
+                <List name="userlist" itemhotimage="file='tree_hot.bmp' corner='2,1,2,1' " itemselectedimage="file='tree_select.bmp' corner='2,1,2,1'">
+                  <ListHeaderItem text="个人设置"  normalimage="top2.bmp"/>
+                  <ListLabelElement text="基本资料" align="center"  selected="true"/>
+                  <ListLabelElement text="照片秀" align="center"/>
+                  <ListLabelElement text="视频认证" align="center"/>
+                  <ListLabelElement text="好友设置" align="center"/>
+                </List>
+              </VerticalLayout>
+              <VerticalLayout name="systemSetList">
+                <List name="syslist" font="3" itemhotimage="file='tree_hot.bmp' corner='2,1,2,1' " itemselectedimage="file='tree_select.bmp' corner='2,1,2,1'" >
+                  <ListHeaderItem text="系统设置"   height="25" normalimage="top2.bmp"/>
+                  <ListLabelElement text="基本设置" align="center"/>
+                  <ListLabelElement text="皮肤设置" align="center"/>
+                  <ListLabelElement text="聊天设置" align="center"/>
+                  <ListLabelElement text="视频设置" align="center"/>
+                </List>
+              </VerticalLayout>
+            </VerticalLayout>
+          </HorizontalLayout>
+          <Control width="7" />
+
+          <HorizontalLayout name="right" bordercolor="#76ABD3FF" bordersize="1">
+            <TabLayout name="switch">
+              <VerticalLayout name="tab1" inset="4,4,4,4">
+                <VerticalLayout>
+                  
+                  <HorizontalLayout name="row1" height="20">
+                    <HorizontalLayout>
+                      <Text text="{f 1}账      号：{/f}" showhtml="true" width="70" />
+                      <Text text="{f 1}{x 4}234117693{/f}" showhtml="true" />
+                    </HorizontalLayout>
+                  </HorizontalLayout>
+                         
+                  <HorizontalLayout name="row2" height="20">
+                    <HorizontalLayout>
+                      <Label text="{f 1}昵     称 ：{/f}" width="70" showhtml="true"/>
+                      <Edit text="Vocaltion" width="120"/>
+                      <Control width="35" />
+                      <Label text="{f 1}性别 :{/f}" width="40" showhtml="true"/>
+                      <Control width="5" />
+                      <Combo width="30">
+                        <ListLabelElement text="男" selected="true"/>
+                        <ListLabelElement text="女" />
+                      </Combo>
+                      <Control width="35" />
+                      <Label text="{f 1}年龄 :{/f}" width="40" showhtml="true"/>
+                      <Edit text="20" width="120"/>
+                      
+                    </HorizontalLayout>
+                  </HorizontalLayout>
+                  <Control height="9" />
+                  
+                  
+                  <HorizontalLayout name="row3" height="20">
+                    <HorizontalLayout>
+                      <Label text="{f 1}游戏心语 :{/f}" width="70" showhtml="true"/>
+                      <Edit text="Vocaltion" width="425"/>
+                    </HorizontalLayout>
+                  </HorizontalLayout>
+                  <Control height="9" />
+                  
+                  <HorizontalLayout name="row4" height="20">
+                    <HorizontalLayout>
+                      <Label text="{f 1}国家/地区：{/f}" width="70" showhtml="true"/>
+                      <Combo width="70">
+                        <ListLabelElement text="中国" selected="true"/>
+                        <ListLabelElement text="美国" />
+                      </Combo>
+                      <Control width="45" />
+                      <Label text="{f 1}省  份 ：{/f}" width="50" showhtml="true"/>
+                      <Combo width="80">
+                        <ListLabelElement text="湖北" selected="true"/>
+                        <ListLabelElement text="广东" />
+                      </Combo>
+                      <Control width="45" />
+                      <Label text="{f 1}城   市 ：{/f}" width="50" showhtml="true"/>
+                      <Combo width="85">
+                        <ListLabelElement text="中国" selected="true"/>
+                        <ListLabelElement text="美国" />
+                      </Combo>
+                    </HorizontalLayout>
+                  </HorizontalLayout>
+                  <Control height="9" />
+                  
+                  <HorizontalLayout name="row5" height="20">
+                    <HorizontalLayout>
+                      <Label text="{f 1}星      座 ：{/f}" width="70" showhtml="true"/>
+                      <Combo width="70">
+                        <ListLabelElement text="双鱼" selected="true"/>
+                        <ListLabelElement text="天平" />
+                      </Combo>
+                      <Control width="45" />
+                      <Label text="{f 1}生  肖 ：{/f}" width="50" showhtml="true"/>
+                      <Combo width="80">
+                        <ListLabelElement text="兔" selected="true"/>
+                        <ListLabelElement text="虎" />
+                      </Combo>
+                      <Control width="45" />
+                      <Label text="{f 1}血   型 ：{/f}" width="50" showhtml="true"/>
+                      <Combo width="85">
+                        <ListLabelElement text="A型" selected="true"/>
+                        <ListLabelElement text="B型" />
+                      </Combo>
+                    </HorizontalLayout>
+                  </HorizontalLayout>
+                  <Control height="20" />
+                  
+                  <HorizontalLayout name="row6" height="20">
+                    <HorizontalLayout>
+                      <Label text="{f 1}注 ：* 为必填内容{/f}" width="100" showhtml="true"/>
+                      <Control width ="200" />
+                      <Button name="ImportFromZone" text="从QQ空间导入资料" maxwidth="100" maxheight="44" normalimage="file='button_nor.bmp' source='0,0,75,24' mask='#FFFFFFFF'" hotimage="file='button_over.bmp' source='0,0,75,24' mask='#FFFFFFFF'" pushedimage="file='button_down.bmp' source='0,0,75,24' mask='#FFFFFFFF'" />
+                    </HorizontalLayout>
+                  </HorizontalLayout>
+                  
+                  
+                </VerticalLayout>
+              </VerticalLayout>
+              <VerticalLayout name="tab2">
+                <VerticalLayout>
+                  <List height="245" inset="5,0,1,0"  itemimage="file='radio.bmp' source='0,0,13,13' dest='0,2,13,15' mask ='#FFFF00FF'" itemhotimage="file='radio.bmp' source='13,0,26,13' dest='0,2,13,15'" itemselectedimage="file='radio2.bmp' source='0,0,13,13' dest='0,2,13,15'" itemshowhtml="true" itemtextpadding="15,0,0,0" itemselectedbkcolor="#FFF2F9FF" itemhotbkcolor="#FFF2F9FF">
+                    <ListLabelElement text="允许任何人加我为游戏好友" align="left" selected="true"/>
+                    <ListLabelElement text="需要经过我统一才能加我为好友" align="left" />
+                    <ListLabelElement text="拒绝任何人加我为游戏好友" align="left" />
+                  </List>
+                </VerticalLayout>
+              </VerticalLayout>
+              <VerticalLayout name="tab3">
+                <VerticalLayout>
+
+                </VerticalLayout>
+              </VerticalLayout>
+              <VerticalLayout name="tab4">
+                <VerticalLayout>
+
+                </VerticalLayout>
+              </VerticalLayout>
+
+              <VerticalLayout name="tab5">
+                <VerticalLayout>
+
+                </VerticalLayout>
+              </VerticalLayout>
+
+              <VerticalLayout name="tab6">
+                <VerticalLayout>
+
+                </VerticalLayout>
+              </VerticalLayout>
+
+              <VerticalLayout name="tab7">
+                <VerticalLayout>
+
+                </VerticalLayout>
+              </VerticalLayout>
+
+              <VerticalLayout name="tab8">
+                <VerticalLayout>
+
+                </VerticalLayout>
+              </VerticalLayout>
+
+            </TabLayout>
+          </HorizontalLayout>
+          
+        </HorizontalLayout>
+      </VerticalLayout>
+    
+      <VerticalLayout name="buttom" height="37">
+        <HorizontalLayout>
+          <HorizontalLayout>
+            <Control width="10" bkimage="file='borderbl.bmp' source='0,0,10,37' mask='#FFFF00FF'"/>
+            <Control bkimage="file='borderbm.bmp' source='0,0,5,37' mask='#FFFF00FF'"/>
+            <Control width="10" bkimage="file='borderbr.bmp' source='0,0,10,37' mask='#FFFF00FF'"/>
+            <Button name="btnApply" float="true" pos="300,6,375,30" text="应用" maxwidth="75" maxheight="24" normalimage="file='button_nor.bmp' source='0,0,75,24' mask='#FFFFFFFF'" hotimage="file='button_over.bmp' source='0,0,75,24' mask='#FFFFFFFF'" pushedimage="file='button_down.bmp' source='0,0,75,24' mask='#FFFFFFFF'" />
+            <Button name="btnOk" float="true" pos="385,6,460,30" text="确定" maxwidth="75" maxheight="214" normalimage="file='button_nor.bmp' source='0,0,75,24' mask='#FFFFFFFF'" hotimage="file='button_over.bmp' source='0,0,75,24' mask='#FFFFFFFF'" pushedimage="file='button_down.bmp' source='0,0,75,24' mask='#FFFFFFFF'" />
+            <Button name="btnCancel" float="true" pos="470,6,545,30" text="取消" maxwidth="75" maxheight="24" normalimage="file='button_nor.bmp' source='0,0,75,24' mask='#FFFFFFFF'" hotimage="file='button_over.bmp' source='0,0,75,24' mask='#FFFFFFFF'" pushedimage="file='button_down.bmp' source='0,0,75,24' mask='#FFFFFFFF'" />
+          </HorizontalLayout>
+        </HorizontalLayout>
+      </VerticalLayout>
+
+    </VerticalLayout>
+  </Container>
+</Window>

@@ -1,0 +1,98 @@
+<Window>
+  <VerticalLayout name="Special" bkcolor="#FFE9EEEE" vscrollbar="true">
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textcolor:" width="230" align="left" showhtml="true"/>
+        <Edit name="textcolor" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="disabletextcolor:" width="230" align="left" showhtml="true"/>
+        <Edit name="disabletextcolor" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textpadding_left:" width="230" align="left" showhtml="true"/>
+        <Edit name="textpadding_left" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textpadding_top:" width="230" align="left" showhtml="true"/>
+        <Edit name="textpadding_top" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textpadding_right:" width="230" align="left" showhtml="true"/>
+        <Edit name="textpadding_right" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="textpadding_bottom:" width="230" align="left" showhtml="true"/>
+        <Edit name="textpadding_bottom" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="showhtml:" width="230" align="left" showhtml="true"/>
+        <Combo bkcolor="#FFE9EEEE" name="showhtml" width="230" dropboxsize="0, 150" droptype="droplist" dropbtnimage="file='list_down.png''">
+          <ListLabelElement text="true" selected="true" />
+          <ListLabelElement text="false"/>
+        </Combo>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="Horizontal:" width="230" align="left" showhtml="true"/>
+        <Combo bkcolor="#FFE9EEEE" name="Horizontal" width="230" dropboxsize="0, 150" droptype="droplist" dropbtnimage="file='list_down.png''">
+          <ListLabelElement text="true" selected="true" />
+          <ListLabelElement text="false"/>
+        </Combo>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="FgImage:" width="230" align="left" showhtml="true"/>
+        <Edit name="FgImage" bkcolor="#FFE9EEEE" width="230"/>
+        <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="MinValue:" width="230" align="left" showhtml="true"/>
+        <Edit name="MinValue" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="MaxValue:" width="230" align="left" showhtml="true"/>
+        <Edit name="MaxValue" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+    <VerticalLayout height="30">
+      <HorizontalLayout height="30">
+        <Label text="Value:" width="230" align="left" showhtml="true"/>
+        <Edit name="Value" digitalnumber="true" bkcolor="#FFE9EEEE" width="230"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <VerticalLayout height="3"/>
+  </VerticalLayout>
+</Window>

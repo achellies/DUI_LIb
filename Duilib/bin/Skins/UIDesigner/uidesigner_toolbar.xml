@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="800,570" roundcorner="20,20">
+  <VerticalLayout>
+  <VerticalLayout>
+    <HorizontalLayout bkcolor="#FFE9EEEE" bordersize="0" height="45">
+      <Button name="open" padding="15,7,0,0" textcolor="#FF8000FF" fitallArea="false" text="open" minwidth="60" minheight="30" maxwidth="60" maxheight="30" normalimage="file='openHS.png' dest='0,7,16,23'" align="left"/>
+      <Button name="new" padding="0,7,0,0" textcolor="#FF8000FF" fitallArea="false" text="new" inwidth="60" minheight="30" maxwidth="60" maxheight="30" normalimage="file='NewDocumentHS.png' dest='0,7,16,23'" align="left"/>
+      <Button name="save" padding="0,7,0,0" textcolor="#FF8000FF" fitallArea="false" text="save" minwidth="60" minheight="30" maxwidth="60" maxheight="30" normalimage="file='saveHS.png' dest='0,7,16,23'" align="left"/>
+      <Button name="help" padding="0,7,0,0" fitallArea="false" text="help" minwidth="60" minheight="30" maxwidth="60" maxheight="30" normalimage="file='Help.png' dest='0,7,16,23'"  textcolor="#FF8000FF" showhtml="true" align="left"/>
+      <Label textcolor="#FF8000FF" text="宽" width="30" align="right"/>
+      <Edit textcolor="#FF8000FF" bkcolor="#FFE9EEEE" name="width" digitalnumber="true" width="60" maxwidth="60" padding="0,7,0,0" maxheight="30"/>
+      <Label textcolor="#FF8000FF" text="高" width="30" align="right"/>
+      <Edit textcolor="#FF8000FF" bkcolor="#FFE9EEEE" name="height" digitalnumber="true" width="60" maxwidth="60"  padding="0,7,0,0" maxheight="30"/>
+      <Label textcolor="#FF8000FF" text="Opacity: " width="60" align="left" showhtml="true" maxheight="30" padding="5,7,0,0" />
+      <Combo textcolor="#FF8000FF" itemselectedtextcolor="#FF8000FF" itemtextcolor="#FF8000FF" bkcolor="#FFE9EEEE" width="60" name="opacity" dropboxsize="0, 150" droptype="droplist" dropbtnimage="file='list_down.png'" maxheight="30" padding="5,7,0,0">
+        <ListLabelElement text="true" selected="true" />
+        <ListLabelElement text="false"/>
+      </Combo>
+      <Label textcolor="#FF8000FF" text="透明度: " padding="0,7,0,0" maxheight="30" width="60" align="right"/>
+      <Edit textcolor="#FF8000FF" bkcolor="#FFE9EEEE" name="transparency" padding="0,7,0,0" maxheight="30" digitalnumber="true" width="60" maxwidth="60" text="0" readonly="true"/>
+      <Button textcolor="#FF8000FF" name="setforminfo" width="80" text="设置" maxheight="30" padding="5,7,0,0" align="center" normalimage="file='login_btn_normal.png'" hotimage="file='login_btn_highlight.png'" pushedimage="file='login_btn_down.png'"/>
+    </HorizontalLayout>
+  </VerticalLayout>
+  <VerticalLayout>
+    <HorizontalLayout bkcolor="#FFE9EEEE" bordersize="0" height="45">
+      <Button name="copy" fitallArea="false" text="copy" padding="15,7,0,0" minwidth="75" minheight="30" maxwidth="75" maxheight="30" normalimage="file='CopyHS.png' dest='0,7,16,23'" textcolor="#FF8000FF" showhtml="true" align="left"/>
+      <Button name="cut" fitallArea="false" text="cut" minwidth="75" minheight="30" maxwidth="75" maxheight="30" normalimage="file='CutHS.png' dest='0,7,16,23'" padding="0,7,0,0" textcolor="#FF8000FF" showhtml="true" align="left"/>
+      <Button name="paste" fitallArea="false" text="paste" minwidth="75" minheight="30" maxwidth="75" maxheight="30" normalimage="file='PasteHS.png' dest='0,7,16,23'" padding="0,7,0,0" textcolor="#FF8000FF" showhtml="true" align="left"/>
+      <Button name="undo" fitallArea="false" text="undo" minwidth="75" minheight="30" maxwidth="75" maxheight="30" normalimage="file='Edit_UndoHS.png' dest='0,7,16,23'" padding="0,7,0,0" textcolor="#FF8000FF" showhtml="true" align="left"/>
+      <Button name="redo" fitallArea="false" text="redo" minwidth="75" minheight="30" maxwidth="75" maxheight="30" normalimage="file='Edit_RedoHS.png' dest='0,7,16,23'" padding="0,7,0,0" textcolor="#FF8000FF" showhtml="true" align="left"/>
+      <Button name="refresh" fitallArea="false" text="update" minwidth="75" minheight="30" maxwidth="75" maxheight="30" normalimage="file='SychronizeListHS.png' dest='0,7,16,23'" padding="0,7,0,0" textcolor="#FF8000FF" showhtml="true" align="left"/>
+      <Button name="delete" fitallArea="false" text="delete" minwidth="75" minheight="30" maxwidth="75" maxheight="30" normalimage="file='DeleteHS.png' dest='0,7,16,23'" padding="0,7,0,0" textcolor="#FF8000FF" showhtml="true" align="left"/>
+    </HorizontalLayout>
+  </VerticalLayout>
+  </VerticalLayout>
+</Window>

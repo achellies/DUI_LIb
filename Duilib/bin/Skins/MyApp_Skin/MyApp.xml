@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window size="800,600" sizebox="4,4,0,6" caption="0,0,0,27" mininfo="800,600"  roundcorner="6,6">
+  <Image name="gameicons.png" />
+  <Image name="tree_expand.png" />
+  <Font name="微软雅黑" size="10" />
+  <Font name="微软雅黑" size="12" />
+  <Font name="微软雅黑" size="14" />
+  <Font name="宋体" size="13" bold="true" />
+  <Font name="宋体" size="12" bold="true" />
+  <Font name="宋体" size="12" />
+  <Font name="宋体" size="14" bold="true" />
+  <Default name="VScrollBar" value="button1normalimage=&quot;file='scroll.bmp' source='0,0,17,17' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scroll.bmp' source='0,19,17,36' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scroll.bmp' source='0,38,17,55' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scroll.bmp' source='0,38,17,55' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scroll.bmp' source='19,0,36,17' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scroll.bmp' source='19,19,36,36' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scroll.bmp' source='19,38,36,55' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scroll.bmp' source='19,38,36,55' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scroll.bmp' source='38,0,55,17' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scroll.bmp' source='38,19,55,36' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scroll.bmp' source='38,38,55,55' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scroll.bmp' source='38,38,55,55' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scroll.bmp' source='57,0,74,17' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scroll.bmp' source='57,19,74,36' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scroll.bmp' source='57,38,74,55' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scroll.bmp' source='57,38,74,55' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scroll.bmp' source='76,0,93,17' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scroll.bmp' source='76,19,93,36' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scroll.bmp' source='76,38,93,55' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scroll.bmp' source='76,38,93,55' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <Default name="HScrollBar" value="button1normalimage=&quot;file='scroll.bmp' source='0,57,17,74' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scroll.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scroll.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scroll.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scroll.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scroll.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scroll.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scroll.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scroll.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scroll.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scroll.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scroll.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scroll.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scroll.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scroll.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scroll.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scroll.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scroll.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scroll.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scroll.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <Container>
+    <VerticalLayout name="main" inset="4,0,4,4" bkcolor="#FFB1DCFF" bordercolor="#FF1B4876" bordersize="1" >
+      
+      <HorizontalLayout name="header" height="27">
+ 
+        <HorizontalLayout name="caption">
+          <Container height="22" bkimage="file='QQGame.bmp' source='0,0,16,16' dest='5,4,21,20' mask='#FFFF00FF'" />
+          <Text text="QQ游戏大厅" pos="22, 6, 200, 24" float="true" textcolor="#FF447AA1" font="3" />
+        </HorizontalLayout>
+        
+        <HorizontalLayout name="set" height="27" inset="0,4,0,0" width="90">
+          <Button name="btnColor" maxwidth="40" maxheight="14" normalimage="file='ColorBtn.png' source='0,0,40,14' mask='#FFFFFFFF'" hotimage="file='ColorBtn.png' source='40,0,80,14' mask='#FFFFFFFF'" pushedimage="file='ColorBtn.png' source='80,0,120,14' mask='#FFFFFFFF'" />
+          <Control width="5" />
+          <Button name="btnMenu" maxwidth="40" maxheight="14" normalimage="file='MenuBtn.png' source='0,0,40,14' mask='#FFFFFFFF'" hotimage="file='MenuBtn.png' source='40,0,80,14' mask='#FFFFFFFF'" pushedimage="file='MenuBtn.png' source='80,0,120,14' mask='#FFFFFFFF'" />
+          <Control width="5" />
+        </HorizontalLayout>
+        
+        <HorizontalLayout name="sizeboxer" height="22" inset="0,1,0,0" width="94">
+          <Button name="minbtn" maxwidth="26" maxheight="18" normalimage="file='frame_btn_min.bmp' source='0,0,26,18' mask='#FFFF00FF'" hotimage="file='frame_btn_min.bmp' source='26,0,52,18' mask='#FFFF00FF'" pushedimage="file='frame_btn_min.bmp' source='52,0,78,18' mask='#FFFF00FF'"/>
+          <Button name="maxbtn"  maxwidth="26" maxheight="18" normalimage="file='frame_btn_max.bmp' source='0,0,26,18' mask='#FFFF00FF'" hotimage="file='frame_btn_max.bmp' source='26,0,52,18' mask='#FFFF00FF'" pushedimage="file='frame_btn_max.bmp' source='52,0,78,18' mask='#FFFF00FF'"/>
+          <Button name="restorebtn" visible="false" maxwidth="26" maxheight="18" normalimage="file='frame_btn_max.bmp' source='104,0,130,18' mask='#FFFF00FF'" hotimage="file='frame_btn_max.bmp' source='130,0,156,18' mask='#FFFF00FF'" pushedimage="file='frame_btn_max.bmp' source='156,0,182,18' mask='#FFFF00FF'" />
+          <Button name="closebtn"  maxwidth="42" maxheight="18" normalimage="file='frame_btn_close_normal.bmp' mask='#FFFF00FF'" hotimage="file='frame_btn_close_hot.bmp' mask='#FFFF00FF'" pushedimage="file='frame_btn_close_down.bmp' mask='#FFFF00FF'"/>
+        </HorizontalLayout>
+        
+      </HorizontalLayout>
+
+      <HorizontalLayout name="banner" bkimage="file='TopBGImage.bmp' source='180,27,300,64' mask='#FFFFFFFF'" inset="0,10,0,5" height="65" bordersize="1" bordercolor="#FF1B1076">
+
+        <HorizontalLayout >
+          <Control width="5" />
+          <Button name="personset" maxwidth="52" maxheight="46" normalimage="file='FaceBG.bmp' source='0,0,52,46' mask='#FFFF00FF'" hotimage="file='FaceBG.bmp' source='52,0,104,46' mask='#FFFF00FF'" pushedimage="file='FaceBG.bmp' source='104,0,156,46' mask='#FFFF00FF'"/>
+          <Control width="15" />
+          <VerticalLayout>
+            <VerticalLayout>
+              
+              <VerticalLayout height="30">
+                <Text text="{a}{f 2}Vocation (尚未设置心语){/f}{/a}" showhtml="true" tooltip="12345679" />
+              </VerticalLayout>
+              
+              <VerticalLayout>
+                <HorizontalLayout>
+                  <Button maxwidth="23" maxheight="23" normalimage="file='MyItems.png' source='0,0,23,23' mask='#FFFF00FF'" hotimage="file='MyItems.png' source='23,0,46,23' mask='#FFFF00FF'" pushedimage="file='MyItems.png' source='46,0,69,23' mask='#FFFF00FF'"/>
+                  <Control width="15" />
+                  <Button maxwidth="23" maxheight="23" normalimage="file='MyFriends.png' source='0,0,23,23' mask='#FFFF00FF'" hotimage="file='MyFriends.png' source='23,0,46,23' mask='#FFFF00FF'" pushedimage="file='MyFriends.png' source='46,0,69,23' mask='#FFFF00FF'"/>
+                  <Control width="3" />
+                  <Text text="{a}{f 1}(1/1){/f}{/a}" showhtml="true" />
+                  <Control width="15" />
+                  <Button maxwidth="23" maxheight="23" normalimage="file='Rose.png' source='0,0,23,23' mask='#FFFF00FF'" hotimage="file='Rose.png' source='23,0,46,23' mask='#FFFF00FF'" pushedimage="file='Rose.png' source='46,0,69,23' mask='#FFFF00FF'"/>
+                  <Control width="15" />
+                  <Button maxwidth="23" maxheight="23" normalimage="file='Baby.png' source='0,0,23,23' mask='#FFFF00FF'" hotimage="file='Baby.png' source='23,0,46,23' mask='#FFFF00FF'" pushedimage="file='Baby.png' source='46,0,69,23' mask='#FFFF00FF'"/>
+                  <Control width="15" />
+                  <Button maxwidth="27" maxheight="20" normalimage="file='ExpandDown.png' source='0,0,27,20' mask='#FFFF00FF'" hotimage="file='ExpandDown.png' source='27,0,54,20' mask='#FFFF00FF'" pushedimage="file='ExpandDown.png' source='54,0,81,20' mask='#FFFF00FF'"/>
+                </HorizontalLayout>
+              </VerticalLayout>
+              
+            </VerticalLayout>
+          </VerticalLayout>
+        </HorizontalLayout>
+        
+        <HorizontalLayout width="299" inset="0,0,20,0">
+          <Button name="OfficialWebsite" maxwidth="83" maxheight="62" normalimage="file='OfficialWebsite.png' source='0,0,83,62' mask='#FFFFFFFF'" hotimage="file='OfficialWebsite.png' source='83,0,166,62' mask='#FFFFFFFF'" pushedimage="file='OfficialWebsite.png' source='166,0,289,62' mask='#FFFFFFFF'" />
+          <Button name="ItemShop.png" maxwidth="83" maxheight="62" normalimage="file='ItemShop.png' source='0,0,83,62' mask='#FFFFFFFF'" hotimage="file='ItemShop.png' source='83,0,166,62' mask='#FFFFFFFF'" pushedimage="file='file='ItemShop.png' source='166,0,289,62' mask='#FFFFFFFF'" />
+          <Button name="BlueVip.png" maxwidth="83" maxheight="62" normalimage="file='BlueVip.png' source='0,0,83,62' mask='#FFFFFFFF'" hotimage="file='BlueVip.png' source='83,0,166,62' mask='#FFFFFFFF'" pushedimage="file='BlueVip.png' source='166,0,289,62' mask='#FFFFFFFF'" />
+          <ActiveX name="ad" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" visible="false" maxwidth="320" maxheight="62"/>
+        </HorizontalLayout>
+      </HorizontalLayout>
+
+      <HorizontalLayout name="body">
+
+        <HorizontalLayout name="left" width="300" inset="0,5,0,0">
+          <VerticalLayout>
+
+            <VerticalLayout name="seach"  height="58" >
+              <HorizontalLayout>
+                <HorizontalLayout name="DirSeachLeft" bkimage="file='DirTreeTopLeft.bmp' source='0,0,15,58' mask='#FFFF00FF'" width="15"/>
+                <HorizontalLayout name="DirSeachLeft" bkimage="file='DirTreeTopMiddle.bmp' source='0,0,1,58' mask='#FFFF00FF'" width="270"/>
+                <HorizontalLayout name="DirSeachRight" bkimage="file='DirTreeTopRight.bmp'  source='0,0,15,58' mask='#FFFF00FF'" width="15"/>
+                <HorizontalLayout float="true" pos="5,25,31,50" bkimage="file='S_bgl.bmp'  source='0,0,26,25' mask='#FFFF00FF'" width="26" />
+                <HorizontalLayout float="true" pos="31,25,270,52" bkimage="file='S_bgm.bmp'  source='0,0,2,25' mask='#FFFF00FF'" width="249" />
+                <HorizontalLayout float="true" pos="270,25,285,50" bkimage="file='S_bgr.bmp'  source='0,0,15,25' mask='#FFFF00FF'" width="25" />
+                <Button name="gotoSeachResult" float="true" pos="273,34,283,44" normalimage="file='enter_button.bmp' source='0,0,10,10' mask='#FFFFFFFF'" hotimage="file='enter_button.bmp' source='10,0,20,10' mask='#FFFFFFFF'" pushedimage="file='enter_button.bmp' source='20,0,30,10' mask='#FFFFFFFF'" />
+                <Edit name="Seachedit" float="true" pos="31,27,269,48" tooltip="请在这里输入您的账号" />
+                <Option pos="272, 5, 290,22" float="true" normalimage="file='lockdir.bmp' source='0,0,18,17'" hotimage="file='lockdir.bmp' source='18,0,36,17'" pushedimage="file='lockdir2.bmp' source='0,0,18,17'" selectedimage="file='lockdir2.bmp' source='18,0,36,17'" />
+                <Text text="{f 1}同时在线人数：4282443{/f}" showhtml="true" pos="12,5,180,22" float="true" tooltip="12345679" />
+              </HorizontalLayout>
+            </VerticalLayout><!--seach-->
+
+            <VerticalLayout name="nav" bordersize="2" bordercolor="#FF1B1076">
+              <OutLookBar name="OutLookBar" bkcolor="#FFF6F9FF" inset="1,0,1,0" header="hidden" itemhotimage="file='tree_hot.bmp' corner='2,1,2,1' " itemselectedimage="file='tree_select.bmp' corner='2,1,2,1'" itemlinecolor="#FFE4EAF2" itemshowhtml="true" vscrollbar="true" hscrollbar="true">
+              </OutLookBar>
+            </VerticalLayout><!--nav-->
+            
+          </VerticalLayout><!--left1-->
+        </HorizontalLayout><!--left-->
+
+        <HorizontalLayout name="spiltBar" width="10">
+          <VerticalLayout>
+            <VerticalLayout>
+                <Button float="true" pos="0,200,9,280" normalimage="file='right.bmp' source='0,0,9,80' mask='#FFFFFFFF'" hotimage="file='right.bmp' source='9,0,18,80' mask='#FFFFFFFF'" pushedimage="file='right.bmp' source='18,0,27,80' mask='#FFFFffFF'"/>
+            </VerticalLayout>
+          </VerticalLayout>
+        </HorizontalLayout>
+
+        <HorizontalLayout name="right" inset="0,5,0,0">
+          <VerticalLayout>
+            
+            <VerticalLayout name="tab" height="25">
+              <HorizontalLayout bkcolor="#FFB8DFF2">
+                <Option pos="0, 0, 84, 25" float="true" text="首页" name="index" textcolor="#FF386382" selectedtextcolor="#FF000000" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="true" selected="true"/>
+                <Option pos="84, 0, 168, 25" float="true" text="欢乐斗地主" name="game1" textcolor="#FF386382" selectedtextcolor="#FF000000" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="true"/>
+              </HorizontalLayout>
+            </VerticalLayout>
+
+
+            <VerticalLayout name="broswer" bordersize="1" bordercolor="#FF95AFBF" >
+              <VerticalLayout name="toolbar" height="26" bordersize="1" bordercolor="#FF95AFBF" >
+                <HorizontalLayout inset="5,3,0,0">
+                  <Button name="Broswerback" maxwidth="20" maxheight="20" normalimage="file='web_pre.png' source='0,0,20,20' mask='#FFFFFFFF'" hotimage="file='web_pre.png' source='20,0,40,20' mask='#FFFFFFFF'" pushedimage="file='web_pre.png' source='40,0,60,20' mask='#FFFFFFFF'" />
+                  <Button name="Broswerpre" maxwidth="20" maxheight="20" normalimage="file='web_next.png' source='0,0,20,20' mask='#FFFFFFFF'" hotimage="file='web_next.png' source='20,0,40,20' mask='#FFFFFFFF'" pushedimage="file='web_next.png' source='40,0,60,20' mask='#FFFFFFFF'" />
+                  <Button name="Broswerstop" maxwidth="20" maxheight="20" normalimage="file='web_stop.png' source='0,0,20,20' mask='#FFFFFFFF'" hotimage="file='web_stop.png' source='20,0,40,20' mask='#FFFFFFFF'" pushedimage="file='web_stop.png' source='40,0,60,20' mask='#FFFFFFFF'" />
+                  <Button name="Broswerindex" maxwidth="20" maxheight="20" normalimage="file='web_home.png' source='0,0,20,20' mask='#FFFFFFFF'" hotimage="file='web_home.png' source='20,0,40,20' mask='#FFFFFFFF'" pushedimage="file='file='web_home.png' source='40,0,20,60' mask='#FFFFFFFF'" />
+                  <Button name="Broswerbbs" maxwidth="20" maxheight="20" normalimage="file='web_bbs.png' source='0,0,20,20' mask='#FFFFFFFF'" hotimage="file='web_bbs.png' source='20,0,40,20' mask='#FFFFFFFF'" pushedimage="file='web_bbs.png' source='40,0,60,20' mask='#FFFFFFFF'" />
+                </HorizontalLayout>
+              </VerticalLayout>
+
+              <VerticalLayout name="content">
+                <HorizontalLayout bkcolor="#FFB8DFF2" inset="-1,-1,-1,0">
+                  <ActiveX name="ie" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" />
+                </HorizontalLayout>
+              </VerticalLayout>
+            </VerticalLayout>
+            
+          </VerticalLayout>
+
+        </HorizontalLayout>
+
+      </HorizontalLayout>
+      
+    </VerticalLayout>
+  </Container>
+
+</Window>

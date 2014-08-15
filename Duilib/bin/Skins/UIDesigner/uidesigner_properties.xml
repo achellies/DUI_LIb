@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window sizebox="4,4,6,6" caption="0,0,0,30" mininfo="800,570" roundcorner="20,20">
+  <Default name="VScrollBar" value="button1normalimage=&quot;file='vscroll.png' source='0,0,16,16'&quot; button1hotimage=&quot;file='vscroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='vscroll.png' source='0,16,16,32' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='vscroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='vscroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='vscroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='vscroll.png' source='0,48,16,64' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='vscroll.png' source='0,32,16,48' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='vscroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='vscroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;ffile='vscroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='vscroll.png' source='0,64,16,80' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='vscroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='vscroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='vscroll.png' source='0,96,16,112' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='vscroll.png' source='0,80,16,96' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='vscroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='vscroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='vscroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='vscroll.png' source='0,128,16,146' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <Default name="HScrollBar" value="button1normalimage=&quot;file='hscroll.png' source='0,0,16,16'&quot; button1hotimage=&quot;file='hscroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='hscroll.png' source='0,16,32,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='hscroll.png' source='0,0,16,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='hscroll.png' source='32,0,48,16' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='hscroll.png' source='32,0,48,16' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='vscroll.png' source='48,0,64,16' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='hscroll.png' source='32,0,48,16' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='hscroll.png' source='64,0,80,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='hscroll.png' source='64,0,80,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;ffile='hscroll.png' source='64,0,80,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='hscroll.png' source='64,0,80,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='hscroll.png' source='80,0,96,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='hscroll.png' source='80,0,96,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='hscroll.png' source='96,0,112,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='hscroll.png' source='80,0,96,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='hscroll.png' source='128,0,146,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='hscroll.png' source='128,0,146,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='hscroll.png' source='128,0,146,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='hscroll.png' source='128,0,146,16' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <VerticalLayout bkcolor="#FFE9EEEE" bordercolor="#FF3863FF" bordersize="2">
+    <HorizontalLayout height="32">
+      <HorizontalLayout bkimage="tree_top.png" >
+        <Label name="title" pos="5, 5, 495, 30" text="属性" float="true" align="center"/>
+      </HorizontalLayout>
+    </HorizontalLayout>
+    <HorizontalLayout height="5">
+      <Label pos="5, 0, 490, 5" float="true" />
+    </HorizontalLayout>
+    <VerticalLayout height="25" padding="10,0,10,0">
+      <HorizontalLayout bkcolor="#FFE9EEEE">
+        <Option pos="0, 0,240,23" float="true" align="center" text="通用属性" name="CommonProperties" textcolor="#FF386382" selectedtextcolor="#FF000000" normalimage="file='tab.png' source='0,0,56,16' corner='2,2,2,2'" hotimage="file='tab.png' source='56,0,112,16' corner='2,2,2,2'" selectedimage="file='tab.png' source='112,0,168,16' corner='2,2,2,2'" group="true" selected="true" />
+        <Option pos="240,0,480,23" float="true" align="center" text="特有属性" name="SpecialProperties" textcolor="#FF386382" selectedtextcolor="#FF000000" normalimage="file='tab.png' source='0,0,56,16' corner='2,2,2,2'" hotimage="file='tab.png' source='56,0,112,16' corner='2,2,2,2'" selectedimage="file='tab.png' source='112,0,168,16' corner='2,2,2,2'" group="true"/>
+      </HorizontalLayout>
+    </VerticalLayout>
+    <TabLayout name="ProtertiesTab" padding="10,0,10,0">
+      <VerticalLayout name="Common" bkcolor="#FFE9EEEE" vscrollbar="true">
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="type:" width="230" align="left" showhtml="true"/>
+            <Edit name="type" text="" readonly="true" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="name:" width="230" align="left" showhtml="true"/>
+            <Edit name="name" text="控件名称，同一窗口具有唯一性" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="{c #FF0000}图片是否使用绝对路径:" width="230" align="left" showhtml="true"/>
+            <Combo bkcolor="#FFE9EEEE" name="absolutepath" width="230" dropboxsize="0, 150" droptype="droplist" dropbtnimage="file='list_down.png''">
+              <ListLabelElement text="是" selected="true" />
+              <ListLabelElement text="否"/>
+            </Combo>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="width:" width="230" align="left" showhtml="true"/>
+            <Edit name="width" digitalnumber="true" text="0" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="height:" width="230" align="left" showhtml="true"/>
+            <Edit name="height" digitalnumber="true" text="0" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="Relative_Move:" width="230" align="left" showhtml="true"/>
+            <Edit name="Relative_Move" digitalnumber="true" text="0" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="Relative_Zoom:" width="230" align="left" showhtml="true"/>
+            <Edit name="Relative_Zoom" digitalnumber="true" text="0" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="padding_left:" width="230" align="left" showhtml="true"/>
+            <Edit name="padding_left" digitalnumber="true" text="0" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="padding_top:" width="230" align="left" showhtml="true"/>
+            <Edit name="padding_top" digitalnumber="true" text="0" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="padding_right:" width="230" align="left" showhtml="true"/>
+            <Edit name="padding_right" digitalnumber="true" text="0" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="padding_bottom:" width="230" align="left" showhtml="true"/>
+            <Edit name="padding_bottom" digitalnumber="true" text="0" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="minwidth:" width="230" align="left" showhtml="true"/>
+            <Edit name="minwidth" digitalnumber="true" text="0" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="maxwidth:" width="230" align="left" showhtml="true"/>
+            <Edit name="maxwidth" digitalnumber="true" text="0" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="minheight:" width="230" align="left" showhtml="true"/>
+            <Edit name="minheight" digitalnumber="true" text="0" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="maxheight:" width="230" align="left" showhtml="true"/>
+            <Edit name="maxheight" digitalnumber="true" text="0" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="float:" width="230" align="left" showhtml="true"/>
+            <Combo bkcolor="#FFE9EEEE" name="float" width="230" dropboxsize="0, 150" droptype="droplist" dropbtnimage="file='list_down.png''">
+              <ListLabelElement text="true" selected="true" />
+              <ListLabelElement text="false"/>
+            </Combo>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="visible:" width="230" align="left" showhtml="true"/>
+            <Combo bkcolor="#FFE9EEEE" name="visible" width="230" dropboxsize="0, 150" droptype="droplist" dropbtnimage="file='list_down.png''">
+              <ListLabelElement text="true" selected="true" />
+              <ListLabelElement text="false"/>
+            </Combo>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="Text:" width="230" align="left" showhtml="true"/>
+            <Edit name="Text" text="控件上显示的文字" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="Tooltip:" width="230" align="left" showhtml="true"/>
+            <Edit name="Tooltip" text="控件上的Tooltip" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="背景颜色:" width="230" align="left" showhtml="true"/>
+            <Edit name="bkcolor" bkcolor="#FFE9EEEE" width="230"/>
+            <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="背景颜色2:" width="230" align="left" showhtml="true"/>
+            <Edit name="bkcolor2" bkcolor="#FFE9EEEE" width="230"/>
+            <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="背景图片:" width="230" align="left" showhtml="true"/>
+            <Edit name="bkimage" bkcolor="#FFE9EEEE" width="230"/>
+            <Option name="ChooseImage" fitallArea="false" selectedimage="ChooseImage.png" normalimage="ChooseImage.png"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="边框颜色:" width="230" align="left" showhtml="true"/>
+            <Edit name="bordercolor" width="230" bkcolor="#FFE9EEEE"/>
+            <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="边框选中颜色" width="230" align="left" showhtml="true"/>
+            <Edit name="focusbordercolor" bkcolor="#FFE9EEEE" width="230"/>
+            <Option name="ChooseColor" fitallArea="false" selectedimage="ChooseColor.png" normalimage="ChooseColor.png"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+            <Label text="borderSize:" width="230" align="left" showhtml="true"/>
+            <Edit name="bordersize" digitalnumber="true" text="1" bkcolor="#FFE9EEEE" width="230"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout height="3"/>
+      </VerticalLayout>
+      <VerticalLayout name="Special" bkcolor="#FFE9EEEE" vscrollbar="true">
+        <VerticalLayout height="30">
+          <HorizontalLayout height="30">
+          </HorizontalLayout>
+        </VerticalLayout>
+      </VerticalLayout>
+    </TabLayout>
+    <HorizontalLayout height="32">
+      <HorizontalLayout bkimage="tree_top.png">
+        <Button name="applybtn" float="true" pos="200,2,300,29" relativepos="100,0,0,0" text="apply" align="center" normalimage="file='login_btn_normal.png'" hotimage="file='login_btn_highlight.png'" pushedimage="file='login_btn_down.png'"/>
+      </HorizontalLayout>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>
